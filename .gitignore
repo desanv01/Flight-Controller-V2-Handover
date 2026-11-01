@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.env
+.env.*
+evidence/local-only/
+inventory/*local-only*
+private/
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.pem
+*.key

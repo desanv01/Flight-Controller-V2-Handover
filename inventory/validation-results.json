@@ -1,0 +1,45 @@
+{
+  "edition_date": "2026-11-01",
+  "payload_files": 540,
+  "manifest_files": 537,
+  "manifest_bytes": 137861267,
+  "manifest_exclusions": [
+    "inventory/VALIDATION.md",
+    "inventory/package-sha256.csv",
+    "inventory/validation-results.json"
+  ],
+  "parameters": {
+    "snapshots": 11,
+    "latest_entries": 945,
+    "history_rows": 10371,
+    "difference_rows": 460,
+    "critical_bench_values_checked": 41,
+    "nonzero_coordinates": 0
+  },
+  "public_reference": {
+    "blobs": 481,
+    "commit": "56c91e283b9ce56b6e43480734feb60e2f078760",
+    "line_ending_only_matches": 0,
+    "line_ending_paths": []
+  },
+  "firmware": {
+    "included_identity_files": 3,
+    "apj_equals_bin": true,
+    "device_flash_read_back": false,
+    "private_original_binaries_included": false
+  },
+  "links": {
+    "authored_documents": 34,
+    "local_targets": 107,
+    "scope": "Target existence only; external URLs/anchors and preserved historical source links excluded"
+  },
+  "privacy": {
+    "files_scanned": 537,
+    "bytes_scanned_including_zip_contents": 142983805,
+    "zip_members_scanned": 32,
+    "scope": "Common path/key patterns and excluded file classes; not exhaustive secret detection",
+    "intentional_public_default": "The ExpressLRS default AP password is public vendor information, not a private credential"
+  },
+  "failures": [],
+  "result": "PASS"
+}

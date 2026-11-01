@@ -1,0 +1,2892 @@
+{
+  "repository": "desanv01/Flight-Controller-V2",
+  "commit": "56c91e283b9ce56b6e43480734feb60e2f078760",
+  "blobs": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "sha": "55235e38fc4836ae261a7cfc91a51db158046076",
+      "size": 658
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "sha": "7e7a1f7f5ad4813ee81c0bd45b259ebc4702c55b",
+      "size": 89
+    },
+    {
+      "path": "CHANGELOG.md",
+      "mode": "100644",
+      "sha": "fdd680cf1348f5abf35475ca17bf294054d4ef2f",
+      "size": 1171
+    },
+    {
+      "path": "CONTRIBUTIONS.md",
+      "mode": "100644",
+      "sha": "4a938a5c61802186317852a378ed1a597cfccee8",
+      "size": 1079
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "sha": "0f1092207caa645ff426e0cc40b7eaad69caecb1",
+      "size": 13419
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "sha": "b361c33e72a05cb99081d44dcdbc98a054fba80a",
+      "size": 10206
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "mode": "100644",
+      "sha": "af5c8533d654126309574f3b0d645d833d967118",
+      "size": 1571
+    },
+    {
+      "path": "archive/README.md",
+      "mode": "100644",
+      "sha": "8731057d831bf0da01db0f65c0b5e780682e72f7",
+      "size": 683
+    },
+    {
+      "path": "archive/development-index.json",
+      "mode": "100644",
+      "sha": "4996d7733a80cf620f91d715d93137cff7a9666b",
+      "size": 902788
+    },
+    {
+      "path": "archive/experimental-firmware/README.md",
+      "mode": "100644",
+      "sha": "09980d5799631bffc421fe4a25af79376ff20d3c",
+      "size": 705
+    },
+    {
+      "path": "archive/experimental-firmware/bench-tools/IMU_testing.py",
+      "mode": "100644",
+      "sha": "1dd6dfb139aeb45904cae0b2d6a28a1643987425",
+      "size": 92406
+    },
+    {
+      "path": "archive/experimental-firmware/legacy-targets/BetaFlight/config.h",
+      "mode": "100644",
+      "sha": "d181ddaa345b4bd62beca421a745eac66084ec13",
+      "size": 3969
+    },
+    {
+      "path": "archive/experimental-firmware/legacy-targets/BetaFlight/final/UNKNOWN_cli_backup_20260715_190834.txt",
+      "mode": "100644",
+      "sha": "9febcd14d0ff00c7615be28e49f30d6382ba860d",
+      "size": 4640
+    },
+    {
+      "path": "archive/experimental-firmware/legacy-targets/BetaFlight/final/b.txt",
+      "mode": "100644",
+      "sha": "36cdbc50c6f308981c45d84e05d08604d7de8ece",
+      "size": 3630
+    },
+    {
+      "path": "archive/experimental-firmware/legacy-targets/BetaFlight/target.c",
+      "mode": "100644",
+      "sha": "dd173e65fa898750e0f8f6db57ab1ff9d42b41a6",
+      "size": 1574
+    },
+    {
+      "path": "archive/experimental-firmware/legacy-targets/BetaFlight/target.h",
+      "mode": "100644",
+      "sha": "5100752d13081f0ae36ec3a231ac3bd014cbb5a5",
+      "size": 5679
+    },
+    {
+      "path": "archive/experimental-firmware/legacy-targets/BetaFlight/target.mk",
+      "mode": "100644",
+      "sha": "7af58eff4c144a00b0d895ef73033ffe9e3a54ce",
+      "size": 296
+    },
+    {
+      "path": "archive/experimental-firmware/legacy-targets/INAV/CMakeLists.txt",
+      "mode": "100644",
+      "sha": "f87ee4881f2cddebddf212a73fc826bbcb8d41d1",
+      "size": 37
+    },
+    {
+      "path": "archive/experimental-firmware/legacy-targets/INAV/blah.txt",
+      "mode": "100644",
+      "sha": "af02027f854ef4344404241bf3131d4548292e27",
+      "size": 19
+    },
+    {
+      "path": "archive/experimental-firmware/legacy-targets/INAV/config.c",
+      "mode": "100644",
+      "sha": "17acd370f5a54ff8643ab3614b1b301b8e84a22e",
+      "size": 166
+    },
+    {
+      "path": "archive/experimental-firmware/legacy-targets/INAV/stm32h7.cmake",
+      "mode": "100644",
+      "sha": "83214eb2b6056bf2ad84fe014496c05eaa8bdd24",
+      "size": 6086
+    },
+    {
+      "path": "archive/experimental-firmware/legacy-targets/INAV/target.c",
+      "mode": "100644",
+      "sha": "b2b53916bfcbc921d6fc2e64e9f2dd5188d70208",
+      "size": 2077
+    },
+    {
+      "path": "archive/experimental-firmware/legacy-targets/INAV/target.h",
+      "mode": "100644",
+      "sha": "b61ea432a7ebae31b9876e09ea5c051921a9cf9c",
+      "size": 6279
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Inc/bmi2.h",
+      "mode": "100644",
+      "sha": "e4f7ccbf2b841196a84cec7756334c275ae3c606",
+      "size": 66831
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Inc/bmi270.h",
+      "mode": "100644",
+      "sha": "4c98067e426dca41610179d3fc608faaa3803ea2",
+      "size": 15256
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Inc/bmi270_stm32.h",
+      "mode": "100644",
+      "sha": "20a792465af687b35bcbf9287337258432692753",
+      "size": 1481
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Inc/bmi2_defs.h",
+      "mode": "100644",
+      "sha": "1c3fe8fee8c98f9bc2980d4a36148d1502af305d",
+      "size": 127017
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Inc/bmp388.h",
+      "mode": "100644",
+      "sha": "23c91d5dad84cca5fce4abc53a08d0a71b5702c6",
+      "size": 11655
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Inc/complementary_filter.h",
+      "mode": "100644",
+      "sha": "4a6dc56a1ddd9a13ec6d4480376c651cb1a43c34",
+      "size": 2699
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Inc/crsf.h",
+      "mode": "100644",
+      "sha": "ac6a167f873f8e03c617a4c36dfe921ae940b085",
+      "size": 2843
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Inc/dshot.h",
+      "mode": "100644",
+      "sha": "1ad77f34cd2fea56fff757d9688a0007938cd028",
+      "size": 864
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Inc/icm42688p.h",
+      "mode": "100644",
+      "sha": "6a3acbc6389e81ac08c383ee22070076633952ac",
+      "size": 3410
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Inc/main.h",
+      "mode": "100644",
+      "sha": "c77f2936402d1710ef3f2fe4c2b959c6d1c593b0",
+      "size": 5145
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Inc/motor_mix.h",
+      "mode": "100644",
+      "sha": "e31469554940663a9ba99f53fc1e119818f86744",
+      "size": 921
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Inc/pid.h",
+      "mode": "100644",
+      "sha": "13124233da9f68f85dc4ec9491ea9e6721cf7c77",
+      "size": 1636
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Inc/stm32h7xx_hal_conf.h",
+      "mode": "100644",
+      "sha": "b27f2236001e8b7bfc1610524cc849ac721d5959",
+      "size": 19057
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Inc/stm32h7xx_it.h",
+      "mode": "100644",
+      "sha": "85452c487c07b4a9cb81468631f2be6b0cca78e0",
+      "size": 2137
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Src/bmi2.c",
+      "mode": "100644",
+      "sha": "3e2fe809bbcb6833ffc3bdcff012fb261a94eb03",
+      "size": 362527
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Src/bmi270.c",
+      "mode": "100644",
+      "sha": "4f2548a0c752356568243ca716fcd1164c37ed35",
+      "size": 188251
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Src/bmi270_stm32.c",
+      "mode": "100644",
+      "sha": "5f0f65214b3677dfca2bb600ec3894a4669314af",
+      "size": 9028
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Src/bmp388.c",
+      "mode": "100644",
+      "sha": "418457749717737d971d1b62e9c29bead0401dde",
+      "size": 14078
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Src/complementary_filter.c",
+      "mode": "100644",
+      "sha": "779d329a13c00d4f4ebb4de2be16175f13ee9dc3",
+      "size": 5388
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Src/crsf.c",
+      "mode": "100644",
+      "sha": "b935cba5e3267060e2ec67235dd4cb40e8b5f954",
+      "size": 8427
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Src/dshot.c",
+      "mode": "100644",
+      "sha": "98725012979c0acda48c201495fd5de6d9674e65",
+      "size": 7100
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Src/icm42688p.c",
+      "mode": "100644",
+      "sha": "73fb29d6461da0a949bc06f1ad75979e5534f4b9",
+      "size": 4904
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Src/main.c",
+      "mode": "100644",
+      "sha": "cc749507e4c1132903cad35391ce3a15f1003735",
+      "size": 56437
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Src/motor_mix.c",
+      "mode": "100644",
+      "sha": "0a5bc8dacc7f65ac4674533965344ee8eaca3d64",
+      "size": 2250
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Src/pid.c",
+      "mode": "100644",
+      "sha": "958d38ecf6e0c59ae283ad21682cd08b6413acef",
+      "size": 2281
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Src/stm32h7xx_hal_msp.c",
+      "mode": "100644",
+      "sha": "676aefa004998bfd69248767ffaf76bc9a9602a7",
+      "size": 39975
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Src/stm32h7xx_it.c",
+      "mode": "100644",
+      "sha": "cd1eb1c9ecdd70df6833f65f197568334bf84803",
+      "size": 8058
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Src/syscalls.c",
+      "mode": "100644",
+      "sha": "8884b5aad2053c71778fa066d61ddc4ec84378c1",
+      "size": 2847
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Src/sysmem.c",
+      "mode": "100644",
+      "sha": "5d9f7e67f3251ac7605138f85bf03e80e3cf856f",
+      "size": 2726
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Src/system_stm32h7xx.c",
+      "mode": "100644",
+      "sha": "197d15ceacd8b5b4e99f466be38b070df16d7741",
+      "size": 20245
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Core/Startup/startup_stm32h743vitx.s",
+      "mode": "100644",
+      "sha": "2663d53d89cfda94d7a400fa15b2a545904d12c1",
+      "size": 29319
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/Flight_Controller_H7.ioc",
+      "mode": "100644",
+      "sha": "8440e829556c5af67a6da154bc2a97e68920603c",
+      "size": 30715
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/STM32H743VITX_FLASH.ld",
+      "mode": "100644",
+      "sha": "b79d3cf429ddd93b1341613279952df8f535da6a",
+      "size": 5282
+    },
+    {
+      "path": "archive/experimental-firmware/stm32-hal/STM32H743VITX_RAM.ld",
+      "mode": "100644",
+      "sha": "2aa4359c3f7088e851d43503f5bc0d746193c59d",
+      "size": 5297
+    },
+    {
+      "path": "archive/stage06-schematic/FC_REV_A.kicad_pro",
+      "mode": "100644",
+      "sha": "f9ea646fac68a29162e27a731c647df33a44c11e",
+      "size": 386
+    },
+    {
+      "path": "archive/stage06-schematic/FC_REV_A.kicad_sch",
+      "mode": "100644",
+      "sha": "2e62b7a01767b393e17d62d3e57eb21cf426a09b",
+      "size": 10733
+    },
+    {
+      "path": "archive/stage06-schematic/README.md",
+      "mode": "100644",
+      "sha": "dcf9bd3ad8561aa41b537f582e05450c03331c82",
+      "size": 335
+    },
+    {
+      "path": "archive/stage06-schematic/libraries/FC_REV_A_Local.kicad_sym",
+      "mode": "100644",
+      "sha": "029a8957b720d1d4acf0839eaf47a370ed2d20f3",
+      "size": 101430
+    },
+    {
+      "path": "archive/stage06-schematic/sheets/01_mcu_core.kicad_sch",
+      "mode": "100644",
+      "sha": "b74fb998e12621b8d2ab851ca30227faeb44aa58",
+      "size": 169692
+    },
+    {
+      "path": "archive/stage06-schematic/sheets/02_power.kicad_sch",
+      "mode": "100644",
+      "sha": "27f50eed2366bc2bd4595115cc302fed5ba912cf",
+      "size": 252782
+    },
+    {
+      "path": "archive/stage06-schematic/sheets/03_sensors.kicad_sch",
+      "mode": "100644",
+      "sha": "c24b43a3623650d11428b48723f5040577b77ce3",
+      "size": 143950
+    },
+    {
+      "path": "archive/stage06-schematic/sheets/04_esc.kicad_sch",
+      "mode": "100644",
+      "sha": "2de902c0611af85c5cc029d6f8f67e01a999f4c1",
+      "size": 667
+    },
+    {
+      "path": "archive/stage06-schematic/sheets/05_external_ports.kicad_sch",
+      "mode": "100644",
+      "sha": "d5133bbebba91e2589dc6bc1a0dc01be7dc08023",
+      "size": 671
+    },
+    {
+      "path": "archive/stage06-schematic/sheets/06_can.kicad_sch",
+      "mode": "100644",
+      "sha": "5cd301f856d20fb513b372afff8d22cd85a97c69",
+      "size": 676
+    },
+    {
+      "path": "archive/stage06-schematic/sheets/07_usb_debug.kicad_sch",
+      "mode": "100644",
+      "sha": "2e6ab9f7ea68d14f7158c25e4ea7a0544ae67a47",
+      "size": 646
+    },
+    {
+      "path": "archive/stage06-schematic/sheets/08_storage_status.kicad_sch",
+      "mode": "100644",
+      "sha": "496354f80a485a10abcc2f02d7f9c926ffb4e496",
+      "size": 673
+    },
+    {
+      "path": "archive/upstream-baseline/Firmware Target Files/ArduPilot/hwdef-bl.dat",
+      "mode": "100644",
+      "sha": "618a03a3957e10bfb6017ea7bb2ec4b82d891f4f",
+      "size": 975
+    },
+    {
+      "path": "archive/upstream-baseline/Firmware Target Files/ArduPilot/hwdef.dat",
+      "mode": "100644",
+      "sha": "f1848acdca2dce6354ea589d54d40aaa9146ad05",
+      "size": 5391
+    },
+    {
+      "path": "archive/upstream-baseline/Firmware Target Files/BetaFlight/config.h",
+      "mode": "100644",
+      "sha": "d181ddaa345b4bd62beca421a745eac66084ec13",
+      "size": 3969
+    },
+    {
+      "path": "archive/upstream-baseline/Firmware Target Files/BetaFlight/target.c",
+      "mode": "100644",
+      "sha": "40ef6c7ae65f9862c43ed3f6892fc68714575a7b",
+      "size": 1502
+    },
+    {
+      "path": "archive/upstream-baseline/Firmware Target Files/BetaFlight/target.h",
+      "mode": "100644",
+      "sha": "46fc4ed7147843ffeb68766544a68ab1ab1e2303",
+      "size": 5678
+    },
+    {
+      "path": "archive/upstream-baseline/Firmware Target Files/BetaFlight/target.mk",
+      "mode": "100644",
+      "sha": "7af58eff4c144a00b0d895ef73033ffe9e3a54ce",
+      "size": 296
+    },
+    {
+      "path": "archive/upstream-baseline/Firmware Target Files/INAV/config.c",
+      "mode": "100644",
+      "sha": "17acd370f5a54ff8643ab3614b1b301b8e84a22e",
+      "size": 166
+    },
+    {
+      "path": "archive/upstream-baseline/Firmware Target Files/INAV/target.c",
+      "mode": "100644",
+      "sha": "b8ab93dc165dc8706344058633120e14c1f8d295",
+      "size": 1946
+    },
+    {
+      "path": "archive/upstream-baseline/Firmware Target Files/INAV/target.h",
+      "mode": "100644",
+      "sha": "88322263042d29de17b6d853339e40d27ec5831c",
+      "size": 6250
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/Flight Controller.kicad_pcb",
+      "mode": "100644",
+      "sha": "2eff45d6a8ec5a331c794d85442b3e56f92c1459",
+      "size": 2756016
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/Flight Controller.kicad_pro",
+      "mode": "100644",
+      "sha": "5cd920441e84abb9711fa8aa177492d741232145",
+      "size": 20680
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/Flight Controller.kicad_sch",
+      "mode": "100644",
+      "sha": "0ea794eac32a508c53aa101dcc868eab51ec8a96",
+      "size": 8770
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/MCU.kicad_sch",
+      "mode": "100644",
+      "sha": "5dcbe2363ee35bfcf5044a5ae6ec01de2b8033f7",
+      "size": 246129
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/Sensors.kicad_sch",
+      "mode": "100644",
+      "sha": "1bd848a5ca9b4abb6ffb5c199a88e2790ba3cc8c",
+      "size": 280595
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/connectors.kicad_sch",
+      "mode": "100644",
+      "sha": "46aa886d2ec8e6f7a1b5c97842b7a9a1fb946cd1",
+      "size": 207076
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/footprints/(AP7343 )SOT-25_L3.0-W1.6-P0.95-LS2.8-BL.kicad_mod",
+      "mode": "100644",
+      "sha": "3ded697b7155623aa64a01b826bc66be319a864c",
+      "size": 1786
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/footprints/(mag)LGA-12_L2.0-W2.0-P0.50-BL.kicad_mod",
+      "mode": "100644",
+      "sha": "3c6499816bafadaa67ee850b80602970931c9116",
+      "size": 2441
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/footprints/(zener)SOD-123F_L2.8-W1.8-LS3.7-RD.kicad_mod",
+      "mode": "100644",
+      "sha": "54a044a64171847fc606436e512fe733abc0d459",
+      "size": 1356
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/footprints/AO3407A.kicad_mod",
+      "mode": "100644",
+      "sha": "5960822824e33053243b59542b7542654077db20",
+      "size": 1388
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/footprints/AT7456E.kicad_mod",
+      "mode": "100644",
+      "sha": "10882bee02be2058f603baa23452ab7adcec5320",
+      "size": 3713
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/footprints/CONN-SMD_4P-P1.00_SM04B-SRSS-TB-LF-SN.kicad_mod",
+      "mode": "100644",
+      "sha": "c9a075b38dd59f48d70974001204a5c134e4bba2",
+      "size": 2509
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/footprints/GCT_USB4110GFA.kicad_mod",
+      "mode": "100644",
+      "sha": "322a73014e687449fed6f412ed6d8b8998f24c70",
+      "size": 3412
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/footprints/IND-SMD_L4.4-W4.2.kicad_mod",
+      "mode": "100644",
+      "sha": "19a0fe7b36ffacb3ca9e036d9750cab506bd82c7",
+      "size": 1251
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/footprints/IND-SMD_L5.4-W5.2.kicad_mod",
+      "mode": "100644",
+      "sha": "2e7388942953424af8631726dc1c2e91f09bf50d",
+      "size": 1251
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/footprints/JST-GH-6.kicad_mod",
+      "mode": "100644",
+      "sha": "82c1848664cdb3b1646d10c05e47a643de4a2f0e",
+      "size": 1521
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/footprints/PQFN50P200X200X80-10N.kicad_mod",
+      "mode": "100644",
+      "sha": "5c3d7db05294dcb16bd572f1e39945e4cf2f948f",
+      "size": 3173
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/footprints/PQFN50P300X250X97-14N.kicad_mod",
+      "mode": "100644",
+      "sha": "5b1786c2ad9d107dbc576df7079e4fb78d4cb0d4",
+      "size": 45261
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/footprints/QFP50P1200X1200X160-64N.kicad_mod",
+      "mode": "100644",
+      "sha": "8aa4d37b799a990d5c87c1ec7cbe5c1d5b09647a",
+      "size": 10602
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/footprints/QMC5883P.kicad_mod",
+      "mode": "100644",
+      "sha": "daa7319e19cb6e15a4308f3a7c2b053ab1d105fb",
+      "size": 2828
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/footprints/R2512.kicad_mod",
+      "mode": "100644",
+      "sha": "3b89abdf61747c7b560a72060e7ecb9dbfa8a269",
+      "size": 1225
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/footprints/SW-SMD_SSSS810701.kicad_mod",
+      "mode": "100644",
+      "sha": "62c0ab5c4dce7d9b0492a2f7d547ce0a64d0b48a",
+      "size": 2334
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/footprints/Solderpoint.pretty/BAT pad.kicad_mod",
+      "mode": "100644",
+      "sha": "6cc63f1b17bbe92897ffdaa894a5f74ccce70e60",
+      "size": 1330
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/footprints/Solderpoint.pretty/Solderpad.kicad_mod",
+      "mode": "100644",
+      "sha": "3d52d002171fdf6916602bf4233a79886f53b686",
+      "size": 1343
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/footprints/W25Q128JVSIQ.kicad_mod",
+      "mode": "100644",
+      "sha": "442ea6d7452d02496dca081ef474183c94f3ecd3",
+      "size": 2390
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/footprints/XDCR_BMI270.kicad_mod",
+      "mode": "100644",
+      "sha": "27a030ec93fd0bfb621bb13d40fdc8edcfa4a69c",
+      "size": 3254
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/footprints/ap2112.kicad_mod",
+      "mode": "100644",
+      "sha": "97e234a3d02cda9295fba95a6270f3eb245869ea",
+      "size": 2889
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/power.kicad_sch",
+      "mode": "100644",
+      "sha": "21334cc3cc8543d7e0bff2a936b313f3fac8a0a5",
+      "size": 279199
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/symbols/AO3407A.kicad_sym",
+      "mode": "100644",
+      "sha": "de21ffc3f8dbe45f4f71508984753691b89d7dd6",
+      "size": 3950
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/symbols/AP2112K-3.3TRG1.kicad_sym",
+      "mode": "100644",
+      "sha": "977c0af3ca112ba5016e3f09b03b8b843348e33c",
+      "size": 3142
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/symbols/AP7343.kicad_sym",
+      "mode": "100644",
+      "sha": "9ab46bbce05146ada5b689feaed4f0d4ace683bd",
+      "size": 2282
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/symbols/AT7456E.kicad_sym",
+      "mode": "100644",
+      "sha": "0958846625a323a60d19082d09bf31b983f17099",
+      "size": 7178
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/symbols/BMI270.kicad_sym",
+      "mode": "100644",
+      "sha": "4a3bf6ab8015157b2b52e938298352a18dc74846",
+      "size": 5567
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/symbols/BMP388.kicad_sym",
+      "mode": "100644",
+      "sha": "48eb87c39a0f65c6f271524f22c9879a74e93fd8",
+      "size": 4514
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/symbols/ICM-42688-P.kicad_sym",
+      "mode": "100644",
+      "sha": "8f41f5864e02f530a9c956f56cd2063cb7e016eb",
+      "size": 5618
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/symbols/QMC5883P.kicad_sym",
+      "mode": "100644",
+      "sha": "ea00f484447a8bd5c34eace6efe495e086b26901",
+      "size": 4192
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/symbols/STM32F722RET6.kicad_sym",
+      "mode": "100644",
+      "sha": "503ef0aecb98765ee83b829f6c14e0c967a47168",
+      "size": 17132
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/symbols/SW-SMD_SSSS810701.kicad_sym",
+      "mode": "100644",
+      "sha": "c7985132fc02af0160112d53a7759756a8e57ce4",
+      "size": 2192
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/symbols/USB4110GFA.kicad_sym",
+      "mode": "100644",
+      "sha": "ae54ee645b600afbfaef544ab3da4260aa79e7aa",
+      "size": 5636
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/symbols/W25Q128JVSIQ.kicad_sym",
+      "mode": "100644",
+      "sha": "e8e498850091a5092223e82a3abd19262809dcd6",
+      "size": 4311
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/symbols/mag.kicad_sym",
+      "mode": "100644",
+      "sha": "5c68e3e7efdb9d12b9cb6066913398373e948f0f",
+      "size": 3662
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/symbols/shunt.kicad_sym",
+      "mode": "100644",
+      "sha": "e451934d044dd079192391e0497970b9086331c3",
+      "size": 1295
+    },
+    {
+      "path": "archive/upstream-baseline/Hardware/symbols/zener.kicad_sym",
+      "mode": "100644",
+      "sha": "286119e479c0c0fffe1083b50913f6b2484c141f",
+      "size": 1844
+    },
+    {
+      "path": "archive/upstream-baseline/README.md",
+      "mode": "100644",
+      "sha": "ec7a5b6feeb77901f37742464d756cd17c2a9d6c",
+      "size": 413
+    },
+    {
+      "path": "docs/architecture.md",
+      "mode": "100644",
+      "sha": "b8ce5f007251d5b03085c229f24e7b56a168c5a4",
+      "size": 1002
+    },
+    {
+      "path": "docs/bring-up.md",
+      "mode": "100644",
+      "sha": "b97ddae245385ec8e7497f87b8f81407a3267ffb",
+      "size": 1360
+    },
+    {
+      "path": "docs/connector-pinouts.md",
+      "mode": "100644",
+      "sha": "7d70763b43a7504ee536908a5f4f1711b045023f",
+      "size": 2242
+    },
+    {
+      "path": "docs/development/bench-guides/FC_EVT1_BRINGUP_AND_PI5_INTEGRATION_GUIDE_2026-10-05.md",
+      "mode": "100644",
+      "sha": "85b39bebd47ab8edc5d7f09cd6b64ecd2bcebc15",
+      "size": 47904
+    },
+    {
+      "path": "docs/development/bench-guides/FC_EVT1_BRINGUP_AND_PI5_INTEGRATION_GUIDE_ILLUSTRATED_2026-10-05.md",
+      "mode": "100644",
+      "sha": "7d33a4d1e663ce0fbd2ece10bc1952c53d739609",
+      "size": 71033
+    },
+    {
+      "path": "docs/development/milestones.json",
+      "mode": "100644",
+      "sha": "3c7e10fe64e0bfbb98c6bf3d1b7a370de63934e5",
+      "size": 3341
+    },
+    {
+      "path": "docs/development/milestones/01-research.md",
+      "mode": "100644",
+      "sha": "196285882998596328bdc17646658d6f49f52b11",
+      "size": 724
+    },
+    {
+      "path": "docs/development/milestones/02-selection.md",
+      "mode": "100644",
+      "sha": "a05e3f5d2f5facfc035f0e5a51c478973a66ea49",
+      "size": 1188
+    },
+    {
+      "path": "docs/development/milestones/03-interface-freeze.md",
+      "mode": "100644",
+      "sha": "96ac1d8f5c12c70f511831fb745d9fd1ae34bf2d",
+      "size": 843
+    },
+    {
+      "path": "docs/development/milestones/04-foundation.md",
+      "mode": "100644",
+      "sha": "004f0871ce44998d5105f556613bbd10e9b9288a",
+      "size": 516
+    },
+    {
+      "path": "docs/development/milestones/05-mcu-core.md",
+      "mode": "100644",
+      "sha": "a987202922b403fffd2b57269d31863f4f6152b0",
+      "size": 524
+    },
+    {
+      "path": "docs/development/milestones/06-power.md",
+      "mode": "100644",
+      "sha": "7913b8f804ca37d8e4026ba146d03fb8b3579db8",
+      "size": 1525
+    },
+    {
+      "path": "docs/development/milestones/07-sensors.md",
+      "mode": "100644",
+      "sha": "c0f78ee2d1459077c8827a88a61eae581bcb6500",
+      "size": 690
+    },
+    {
+      "path": "docs/development/milestones/08-interfaces.md",
+      "mode": "100644",
+      "sha": "0bdcf4d66d1b3c38753cebf35660ed4747f06176",
+      "size": 1013
+    },
+    {
+      "path": "docs/development/milestones/09-schematic-review.md",
+      "mode": "100644",
+      "sha": "035095aaf0f86cf655cfba3ea3edf53df6af20a8",
+      "size": 591
+    },
+    {
+      "path": "docs/development/milestones/10-placement.md",
+      "mode": "100644",
+      "sha": "d75f14966e7c48c6438003deaf01f113c2017824",
+      "size": 536
+    },
+    {
+      "path": "docs/development/milestones/11-routing.md",
+      "mode": "100644",
+      "sha": "15a829296a7a05b911035b11174a697d5ec6610b",
+      "size": 447
+    },
+    {
+      "path": "docs/development/milestones/12-rc1.md",
+      "mode": "100644",
+      "sha": "f89186378e7822e57901f97690113287a7c31541",
+      "size": 660
+    },
+    {
+      "path": "docs/development/records/01-research/DIY_Flight_Controller_PCB_Research_and_Preliminary_BOM_2026-08-26.md",
+      "mode": "100644",
+      "sha": "4c15314cdb08470cf3835ba4353304b29e179f22",
+      "size": 169856
+    },
+    {
+      "path": "docs/development/records/01-research/FC_REV_A_DECISION_BASELINE_2026-08-27.md",
+      "mode": "100644",
+      "sha": "067c76b3b28b0712e2fecf52840a71d42be3d0bc",
+      "size": 48553
+    },
+    {
+      "path": "docs/development/records/01-research/FC_REV_A_MASTER_RESEARCH_AND_DECISION_RECORD_2026-08-27.md",
+      "mode": "100644",
+      "sha": "28f4a5316f1c018013d3b124bebd3d4e689598bf",
+      "size": 79173
+    },
+    {
+      "path": "docs/development/records/02-selection/FC_REV_A_ESC_FC_INTERFACE_BASELINE_2026-09-07.md",
+      "mode": "100644",
+      "sha": "385098695df3e207064f591a94fe18e8afa9b399",
+      "size": 4990
+    },
+    {
+      "path": "docs/development/records/02-selection/FC_REV_A_ESC_OPEN_ITEM_REGISTER_2026-09-07.md",
+      "mode": "100644",
+      "sha": "499dfcafd1504ffa4fd8618ae16efd795cdf9f97",
+      "size": 3976
+    },
+    {
+      "path": "docs/development/records/02-selection/FC_REV_A_OPENDRONE_OPENESC_OPENFC_COMPARISON_AND_RECOMMENDATION_2026-09-02.md",
+      "mode": "100644",
+      "sha": "1f1bc39620bcf3dc2d4f0ffc3b2fc9159647d4e6",
+      "size": 29610
+    },
+    {
+      "path": "docs/development/records/02-selection/FC_REV_A_OPENRX_LITE_UNIVERSAL_TRANSCEIVER_ANALYSIS_2026-09-02.md",
+      "mode": "100644",
+      "sha": "ff7024cd9477e21c450d0ab5c602bd9af2af5195",
+      "size": 13991
+    },
+    {
+      "path": "docs/development/records/02-selection/FC_REV_A_STAGE_01_CIRCUIT_SELECTION_2026-08-28.md",
+      "mode": "100644",
+      "sha": "1d66a4b32a30dc9db407935f46754bd4f0b7942a",
+      "size": 81836
+    },
+    {
+      "path": "docs/development/records/02-selection/FC_REV_A_STAGE_01_CLOSEOUT_AND_ESC_OPEN_REGISTER_2026-09-07.md",
+      "mode": "100644",
+      "sha": "9d02a388969ea0a4100d4c776f6a910d8e44a97a",
+      "size": 9901
+    },
+    {
+      "path": "docs/development/records/03-interface-freeze/FC_REV_A_STAGE_02_ENTRY_BRIEF_2026-09-07.md",
+      "mode": "100644",
+      "sha": "0ceb494f9cc37c28d07c2c0d8019baba5aed48d3",
+      "size": 1583
+    },
+    {
+      "path": "docs/development/records/03-interface-freeze/FC_REV_A_STAGE_02_H743_PIN_TIMER_DMA_MATRIX_2026-09-07.md",
+      "mode": "100644",
+      "sha": "85a71ac18d7ed3edff35598ec01558fc6fab6832",
+      "size": 10933
+    },
+    {
+      "path": "docs/development/records/03-interface-freeze/FC_REV_A_STAGE_02_INTERFACE_RESOURCE_FREEZE_2026-09-07.md",
+      "mode": "100644",
+      "sha": "05c382d193b7c9bdb8317ec487875bd49ba5d3cd",
+      "size": 12007
+    },
+    {
+      "path": "docs/development/records/03-interface-freeze/FC_REV_A_STAGE_02_PORT_CONTRACT_2026-09-07.md",
+      "mode": "100644",
+      "sha": "9bb4556fdeb433f900ad31e1c8b73dbff80bcda0",
+      "size": 9399
+    },
+    {
+      "path": "docs/development/records/04-foundation/FC_REV_A_STAGE_03_ENTRY_BRIEF_2026-09-07.md",
+      "mode": "100644",
+      "sha": "3471702ed2a1f5838edf54511a18fa9ac277e3c9",
+      "size": 2999
+    },
+    {
+      "path": "docs/development/records/04-foundation/FC_REV_A_STAGE_03_KICAD_FOUNDATION_2026-09-07.md",
+      "mode": "100644",
+      "sha": "aeab1f15d71fc14ed54387deb2359720386864a8",
+      "size": 11053
+    },
+    {
+      "path": "docs/development/records/05-mcu-core/FC_REV_A_STAGE_04_CONTROL_REVIEW_2026-09-08.md",
+      "mode": "100644",
+      "sha": "2441a3564bfa4ee782e6a86d6d3b816a7542dd9a",
+      "size": 3067
+    },
+    {
+      "path": "docs/development/records/05-mcu-core/FC_REV_A_STAGE_04_H743_CORE_2026-09-07.md",
+      "mode": "100644",
+      "sha": "45b3cdb62a33703483f368339fca11c7436850c8",
+      "size": 16547
+    },
+    {
+      "path": "docs/development/records/06-power/FC_REV_A_CHANGE_CONTROL_CM5_HOSTING_AND_STAGE05_CONDITIONAL_RELEASE_2026-09-09.md",
+      "mode": "100644",
+      "sha": "b7737a5774c49385d40857636573ea7544b6ca2f",
+      "size": 5742
+    },
+    {
+      "path": "docs/development/records/06-power/FC_REV_A_STAGE_05_CONTROL_REVIEW_2026-09-08.md",
+      "mode": "100644",
+      "sha": "66b3a2fe63a1c0e002eeeed99f184cf9901f7c0a",
+      "size": 4738
+    },
+    {
+      "path": "docs/development/records/06-power/FC_REV_A_STAGE_05_POWER_TREE_PROTECTION_MONITORING_2026-09-08.md",
+      "mode": "100644",
+      "sha": "e32c76fd7e88a6ee0f9e8dcc572438630d6bee72",
+      "size": 25076
+    },
+    {
+      "path": "docs/development/records/06-power/FC_REV_A_STAGE_05_R10_CONTROL_REVIEW_2026-09-08.md",
+      "mode": "100644",
+      "sha": "9193f773277f6e4124b75e3b0804d853de1fa936",
+      "size": 5282
+    },
+    {
+      "path": "docs/development/records/06-power/FC_REV_A_STAGE_05_R12_CONTROL_REVIEW_2026-09-08.md",
+      "mode": "100644",
+      "sha": "b7c817e3484820b351e938dea9891dc91240f4c0",
+      "size": 4951
+    },
+    {
+      "path": "docs/development/records/06-power/FC_REV_A_STAGE_05_R14_CONTROL_REVIEW_2026-09-09.md",
+      "mode": "100644",
+      "sha": "a032533cffc03ce6063cb62b44590926efb780f8",
+      "size": 5562
+    },
+    {
+      "path": "docs/development/records/06-power/FC_REV_A_STAGE_05_R16_CONTROL_REVIEW_2026-09-09.md",
+      "mode": "100644",
+      "sha": "1ff53165fe0d0b7452cfffe2423d9295e6cdb78e",
+      "size": 6299
+    },
+    {
+      "path": "docs/development/records/06-power/FC_REV_A_STAGE_05_R18_CONTROL_REVIEW_2026-09-09.md",
+      "mode": "100644",
+      "sha": "af18f1799f3013b75abaacba0a8ca936278cee2e",
+      "size": 5909
+    },
+    {
+      "path": "docs/development/records/06-power/FC_REV_A_STAGE_05_R8_CONTROL_REVIEW_2026-09-08.md",
+      "mode": "100644",
+      "sha": "4d043f6bddcbca32f6b3aa1735e1dba78a7fee2e",
+      "size": 3077
+    },
+    {
+      "path": "docs/development/records/07-sensors/FC_REV_A_STAGE_06_CONTROL_REVIEW_2026-09-09.md",
+      "mode": "100644",
+      "sha": "885e68f477e205b76e016f27037bf2c2bde1afa2",
+      "size": 7218
+    },
+    {
+      "path": "docs/development/records/07-sensors/FC_REV_A_STAGE_06_DISPOSITION_AND_STAGE_07_ENTRY_2026-09-09.md",
+      "mode": "100644",
+      "sha": "eb4099f349f97355e66f9a1c02bfaa6a17ad1499",
+      "size": 4338
+    },
+    {
+      "path": "docs/development/records/07-sensors/FC_REV_A_STAGE_06_IMU_BAROMETER_CIRCUITS_2026-09-09.md",
+      "mode": "100644",
+      "sha": "c6d4133907777ab77b11607e76bcb30e3df92e9a",
+      "size": 32204
+    },
+    {
+      "path": "docs/development/records/08-interfaces/FC_REV_A_STAGE_06_DISPOSITION_AND_STAGE_07_ENTRY_2026-09-09.md",
+      "mode": "100644",
+      "sha": "eb4099f349f97355e66f9a1c02bfaa6a17ad1499",
+      "size": 4338
+    },
+    {
+      "path": "docs/development/records/08-interfaces/FC_REV_A_STAGE_07_CONTROL_REVIEW_2026-09-10.md",
+      "mode": "100644",
+      "sha": "e37ef5101e1be85114d63d3218d190cae371be3c",
+      "size": 8322
+    },
+    {
+      "path": "docs/development/records/08-interfaces/FC_REV_A_STAGE_07_CORRECTION_CLOSEOUT_2026-09-10.md",
+      "mode": "100644",
+      "sha": "822d5f3ddf4d97dfd88ef2e43bfdb182c3d69491",
+      "size": 35523
+    },
+    {
+      "path": "docs/development/records/08-interfaces/FC_REV_A_STAGE_07_CORRECTION_CONTROL_REVIEW_2026-09-10.md",
+      "mode": "100644",
+      "sha": "84d8cb20bb884831e4c702fe54a811869452b81b",
+      "size": 7333
+    },
+    {
+      "path": "docs/development/records/08-interfaces/FC_REV_A_STAGE_07_ESC_EXTERNAL_INTERFACES_2026-09-09.md",
+      "mode": "100644",
+      "sha": "007c8338eb9ef94cdbb133749605684b43848177",
+      "size": 31164
+    },
+    {
+      "path": "docs/development/records/09-schematic-review/FC_REV_A_STAGE_08_CONTROL_REVIEW_2026-09-10.md",
+      "mode": "100644",
+      "sha": "d57f9d94f369d23edf326075576b827e1df7a485",
+      "size": 4841
+    },
+    {
+      "path": "docs/development/records/09-schematic-review/FC_REV_A_STAGE_08_SCHEMATIC_REVIEW_SYMBOLS_FOOTPRINTS_2026-09-10.md",
+      "mode": "100644",
+      "sha": "8506e35140c79eba1aa47c3e5ba19df7313ac984",
+      "size": 21768
+    },
+    {
+      "path": "docs/development/records/10-placement/FC_REV_A_STAGE_09_CONTROL_REVIEW_2026-09-10.md",
+      "mode": "100644",
+      "sha": "28b797730cfcc5de93119fbbc4f1a1310dafeafe",
+      "size": 7981
+    },
+    {
+      "path": "docs/development/records/10-placement/FC_REV_A_STAGE_09_PCB_SETUP_PLACEMENT_2026-09-10.md",
+      "mode": "100644",
+      "sha": "0e6753907e46f9f910ed31d92cf1c9f167669176",
+      "size": 21394
+    },
+    {
+      "path": "docs/development/records/11-routing/FC_REV_A_STAGE_10_PCB_ROUTING_COPPER_CONNECTORS_2026-09-10.md",
+      "mode": "100644",
+      "sha": "ba2f151b942a9382b918a9bb3ff8ee9417f248fe",
+      "size": 25020
+    },
+    {
+      "path": "docs/development/timeline.md",
+      "mode": "100644",
+      "sha": "45e64244ba133a87835b8e901a53dc60a08ea03c",
+      "size": 2395
+    },
+    {
+      "path": "docs/exports/README.md",
+      "mode": "100644",
+      "sha": "c392344dd2ce346968b86d0122912450463c2c2a",
+      "size": 377
+    },
+    {
+      "path": "docs/exports/assembly.pdf",
+      "mode": "100644",
+      "sha": "dd0e7f7fbf74d641388b21938ccdb01253816d7d",
+      "size": 232858
+    },
+    {
+      "path": "docs/exports/export-manifest.json",
+      "mode": "100644",
+      "sha": "7763d426d80e08a1fc7ff196463cfb491413c8d1",
+      "size": 2683
+    },
+    {
+      "path": "docs/exports/fabrication.pdf",
+      "mode": "100644",
+      "sha": "9b89c039bc67b5de091e5d4642636f0b44abc5e8",
+      "size": 163434
+    },
+    {
+      "path": "docs/exports/physical-validation.pdf",
+      "mode": "100644",
+      "sha": "75920f4f03254fcfd18a42fddf145801d1fe2382",
+      "size": 3316
+    },
+    {
+      "path": "docs/exports/schematic.pdf",
+      "mode": "100644",
+      "sha": "fd09e1f1234dd9719712b7ef1e43331720254eeb",
+      "size": 772840
+    },
+    {
+      "path": "docs/manufacturing.md",
+      "mode": "100644",
+      "sha": "6f9b2dcdb43732e737105653bd18e272b87f5486",
+      "size": 267
+    },
+    {
+      "path": "docs/overview.md",
+      "mode": "100644",
+      "sha": "9e4f970fa22753ca694540148e42b35e915edb9d",
+      "size": 640
+    },
+    {
+      "path": "docs/pin-mapping.md",
+      "mode": "100644",
+      "sha": "acabb3786f847f8ca52e0e15074ecd521d1fc9e3",
+      "size": 1063
+    },
+    {
+      "path": "docs/portfolio/case-study.md",
+      "mode": "100644",
+      "sha": "28e9762b1e4f965c2af2a8688c90bcc6cfccc801",
+      "size": 2316
+    },
+    {
+      "path": "docs/portfolio/project.json",
+      "mode": "100644",
+      "sha": "4e8fc432a70a67c18c449887a720a4c34ae5d73e",
+      "size": 5116
+    },
+    {
+      "path": "docs/portfolio/resume-bullets.md",
+      "mode": "100644",
+      "sha": "b2b64669d6692db84fd9ccd55c8d68e7d8829fca",
+      "size": 840
+    },
+    {
+      "path": "docs/power-and-interfaces.md",
+      "mode": "100644",
+      "sha": "5a43ec37fd95cabe332df3aa8699f37e2718a5dc",
+      "size": 1097
+    },
+    {
+      "path": "docs/provenance/reference-links.csv",
+      "mode": "100644",
+      "sha": "2fdd540153b04081cfccd7efd07532368e8f1c23",
+      "size": 8254
+    },
+    {
+      "path": "docs/provenance/release-assets.json",
+      "mode": "100644",
+      "sha": "6a0e0bdd658ef9a03d5a1bbcf835372f8716cfbe",
+      "size": 521
+    },
+    {
+      "path": "docs/provenance/source-map.csv",
+      "mode": "100644",
+      "sha": "b5502d0040c92d807c5f7f59e1bc2ab39bbce9a0",
+      "size": 19245
+    },
+    {
+      "path": "docs/validation-status.md",
+      "mode": "100644",
+      "sha": "12300734a6853eab097a1f58bf389d37e1da2288",
+      "size": 1690
+    },
+    {
+      "path": "fabrication/README.md",
+      "mode": "100644",
+      "sha": "24c55e4e2dc959fc6559f4b7f932a079047532a0",
+      "size": 839
+    },
+    {
+      "path": "fabrication/jlcpcb/README.md",
+      "mode": "100644",
+      "sha": "287a7b334ec3b2524fae8acf570286dfd60ceb6b",
+      "size": 2795
+    },
+    {
+      "path": "fabrication/jlcpcb/SHA256SUMS.csv",
+      "mode": "100644",
+      "sha": "cd82e24a5b9cc73f7c525b4ea38ffc89a339a378",
+      "size": 11768
+    },
+    {
+      "path": "fabrication/jlcpcb/assembly/FC_EVT1-JLCPCB-BOM-FINAL.csv",
+      "mode": "100644",
+      "sha": "8e74cd64e3a26a041182f1e8811e6cf72e78f6a8",
+      "size": 7788
+    },
+    {
+      "path": "fabrication/jlcpcb/assembly/FC_EVT1-JLCPCB-CPL-FINAL.csv",
+      "mode": "100644",
+      "sha": "eabb250f7a80220322955f5e347d734f805bdc19",
+      "size": 3554
+    },
+    {
+      "path": "fabrication/jlcpcb/assembly/J12-HAND-INSTALL-BOM.csv",
+      "mode": "100644",
+      "sha": "f13c2ce59f418e7723c2466916b6853aa0fbccb1",
+      "size": 155
+    },
+    {
+      "path": "fabrication/jlcpcb/assembly/reference/FC_EVT1-BOM.csv",
+      "mode": "100644",
+      "sha": "14077d95a840243691136a4f1098b38530eef32e",
+      "size": 8262
+    },
+    {
+      "path": "fabrication/jlcpcb/assembly/reference/FC_EVT1-CPL-JLCPCB.csv",
+      "mode": "100644",
+      "sha": "1bec7c0ce59ec8c4a4bb6ad00f0372460dd09bac",
+      "size": 4500
+    },
+    {
+      "path": "fabrication/jlcpcb/assembly/reference/FC_EVT1-CPL-KiCad.csv",
+      "mode": "100644",
+      "sha": "cf67d0ec2644c2a36ea89871f2aaf4058732d58e",
+      "size": 11742
+    },
+    {
+      "path": "fabrication/jlcpcb/documents/CHANGE_MANIFEST.md",
+      "mode": "100644",
+      "sha": "78a50ebf9dce7885379e4ccfc8887ed406982172",
+      "size": 1918
+    },
+    {
+      "path": "fabrication/jlcpcb/documents/FIRMWARE_RELEASE_NOTE.md",
+      "mode": "100644",
+      "sha": "4d7f2f2eb9466089158219affcfbd1263abb4b03",
+      "size": 986
+    },
+    {
+      "path": "fabrication/jlcpcb/documents/JLCPCB_IMPEDANCE_RECORD.md",
+      "mode": "100644",
+      "sha": "f3636350b9daf61c9c1146baf51c3bea793c6949",
+      "size": 724
+    },
+    {
+      "path": "fabrication/jlcpcb/documents/JLCPCB_ORDER_SETTINGS.txt",
+      "mode": "100644",
+      "sha": "b2c631f118d9f6c66bdbdbd3e7343349d2db9e62",
+      "size": 1235
+    },
+    {
+      "path": "fabrication/jlcpcb/documents/MECHANICAL_RELEASE_NOTE.md",
+      "mode": "100644",
+      "sha": "574d8f7f827bca4c833dceff26375c6800d9c7c5",
+      "size": 736
+    },
+    {
+      "path": "fabrication/jlcpcb/documents/PCBWAY_FALLBACK_NOTES.md",
+      "mode": "100644",
+      "sha": "0106529aa418b06e40451480852206025c9b0ced",
+      "size": 741
+    },
+    {
+      "path": "fabrication/jlcpcb/exports/assembly.pdf",
+      "mode": "100644",
+      "sha": "217b4cf4669dc63644e501bd51d614be8cbe677a",
+      "size": 233099
+    },
+    {
+      "path": "fabrication/jlcpcb/exports/board.step",
+      "mode": "100644",
+      "sha": "2744e90fd32b142db10b8efbc4d008451e5081ea",
+      "size": 16933871
+    },
+    {
+      "path": "fabrication/jlcpcb/exports/export-manifest.json",
+      "mode": "100644",
+      "sha": "857a79e93f3f6291abc3f422c559412d6e70a762",
+      "size": 3247
+    },
+    {
+      "path": "fabrication/jlcpcb/exports/fabrication.pdf",
+      "mode": "100644",
+      "sha": "0b0117041729179630510a91ae890c23be143b9d",
+      "size": 163700
+    },
+    {
+      "path": "fabrication/jlcpcb/exports/schematic.pdf",
+      "mode": "100644",
+      "sha": "db493a1bdc9091da1492d7e11d2dbff24747b39d",
+      "size": 696534
+    },
+    {
+      "path": "fabrication/jlcpcb/fabrication/Gerber-Drill-Upload.zip",
+      "mode": "100644",
+      "sha": "25970d615e20234dab536bdae3510ae55a0a2c08",
+      "size": 591104
+    },
+    {
+      "path": "fabrication/jlcpcb/fabrication/drill-report.txt",
+      "mode": "100644",
+      "sha": "d9041c36c6bb53b13fc06e23d9bce144f74865b1",
+      "size": 1024
+    },
+    {
+      "path": "fabrication/jlcpcb/fabrication/drill/Flight Controller-NPTH.drl",
+      "mode": "100644",
+      "sha": "bf5237fec6a3618d13298fabc5eb9d508b2d16be",
+      "size": 344
+    },
+    {
+      "path": "fabrication/jlcpcb/fabrication/drill/Flight Controller-PTH.drl",
+      "mode": "100644",
+      "sha": "d7a4fbfe02366689d3dbb2c73f47b329ed7fdca7",
+      "size": 6942
+    },
+    {
+      "path": "fabrication/jlcpcb/fabrication/gerbers/Flight Controller-B_Cu (SIG PWR).gbl",
+      "mode": "100644",
+      "sha": "c02f4702adaae7d357c6b8b2f1f79e76d7d462b6",
+      "size": 451212
+    },
+    {
+      "path": "fabrication/jlcpcb/fabrication/gerbers/Flight Controller-B_Mask.gbs",
+      "mode": "100644",
+      "sha": "a64a3e744fcd4cf8439724d710bd7170a5db506e",
+      "size": 14251
+    },
+    {
+      "path": "fabrication/jlcpcb/fabrication/gerbers/Flight Controller-B_Paste.gbp",
+      "mode": "100644",
+      "sha": "662894dc16b89f7095541294352f98c79a51beaa",
+      "size": 9856
+    },
+    {
+      "path": "fabrication/jlcpcb/fabrication/gerbers/Flight Controller-B_Silkscreen.gbo",
+      "mode": "100644",
+      "sha": "9bdcf8ba52f2545357e100e7e26dd7f7963b8b22",
+      "size": 112398
+    },
+    {
+      "path": "fabrication/jlcpcb/fabrication/gerbers/Flight Controller-Edge_Cuts.gm1",
+      "mode": "100644",
+      "sha": "837484059284887f842b3be923e924656b238965",
+      "size": 1520
+    },
+    {
+      "path": "fabrication/jlcpcb/fabrication/gerbers/Flight Controller-F_Cu (SIG PWR).gtl",
+      "mode": "100644",
+      "sha": "316a73a2ad5d14968d30758b1ef7a1536841297e",
+      "size": 519518
+    },
+    {
+      "path": "fabrication/jlcpcb/fabrication/gerbers/Flight Controller-F_Mask.gts",
+      "mode": "100644",
+      "sha": "77c85da19cb474a87cac607213c5ca9fe206e8bc",
+      "size": 103857
+    },
+    {
+      "path": "fabrication/jlcpcb/fabrication/gerbers/Flight Controller-F_Paste.gtp",
+      "mode": "100644",
+      "sha": "689330efed4b7b9ab4e3b2438729210f001f5e1f",
+      "size": 12254
+    },
+    {
+      "path": "fabrication/jlcpcb/fabrication/gerbers/Flight Controller-F_Silkscreen.gto",
+      "mode": "100644",
+      "sha": "a7b51c484ae9e1f60567f68f762562a93cfffaae",
+      "size": 239055
+    },
+    {
+      "path": "fabrication/jlcpcb/fabrication/gerbers/Flight Controller-In1_Cu (GND).g1",
+      "mode": "100644",
+      "sha": "f8d830f2e3fc2a9c58fdf665bdb07adcefe2aaae",
+      "size": 271934
+    },
+    {
+      "path": "fabrication/jlcpcb/fabrication/gerbers/Flight Controller-In2_Cu (SIG PWR).g2",
+      "mode": "100644",
+      "sha": "855c51ccf37334b9963a36e4d8cf7c0587302fe6",
+      "size": 342824
+    },
+    {
+      "path": "fabrication/jlcpcb/fabrication/gerbers/Flight Controller-In3_Cu(GND SIG).g3",
+      "mode": "100644",
+      "sha": "9723be3c4cd6004ebfcbbdac84453f9af8d2feb6",
+      "size": 182821
+    },
+    {
+      "path": "fabrication/jlcpcb/fabrication/gerbers/Flight Controller-In4_Cu (GND).g4",
+      "mode": "100644",
+      "sha": "f18f6369746b5f4782ecc4c8a9904bebc9d47b87",
+      "size": 188432
+    },
+    {
+      "path": "fabrication/jlcpcb/fabrication/gerbers/Flight Controller-job.gbrjob",
+      "mode": "100644",
+      "sha": "c5142005ac9cdf6861bc4bffb443d3b4dcf83480",
+      "size": 4963
+    },
+    {
+      "path": "fabrication/jlcpcb/fabrication/netlist.ipc",
+      "mode": "100644",
+      "sha": "ac6e67d188955a0481c4edeba1bc8788696b2758",
+      "size": 69311
+    },
+    {
+      "path": "fabrication/jlcpcb/firmware/README.md",
+      "mode": "100644",
+      "sha": "5b724ad536e1ec1ae61066f2337f552783f815f0",
+      "size": 2574
+    },
+    {
+      "path": "fabrication/jlcpcb/firmware/binaries/FCV2_bl.bin",
+      "mode": "100644",
+      "sha": "d1439560b79ad6e3d77c9d0b4679947f957d13be",
+      "size": 18796
+    },
+    {
+      "path": "fabrication/jlcpcb/firmware/binaries/arducopter.apj",
+      "mode": "100644",
+      "sha": "8bc707b9558663b454f0dcc4f3a37c81983aacf2",
+      "size": 1247376
+    },
+    {
+      "path": "fabrication/jlcpcb/firmware/binaries/arducopter.bin",
+      "mode": "100644",
+      "sha": "c5b3535177c823d31137fe17c88ef92567f4a0a5",
+      "size": 1400584
+    },
+    {
+      "path": "fabrication/jlcpcb/firmware/build/build.sh",
+      "mode": "100644",
+      "sha": "bcfa1750235f0cc6da2dfa868e02ad3c3cd90129",
+      "size": 650
+    },
+    {
+      "path": "fabrication/jlcpcb/firmware/build/logs/bootloader-build.log",
+      "mode": "100644",
+      "sha": "15b4b88a693c4b1f973ed2e986caaadcee9ce9e5",
+      "size": 18937
+    },
+    {
+      "path": "fabrication/jlcpcb/firmware/build/logs/bootloader-configure.log",
+      "mode": "100644",
+      "sha": "ad847bb7d82bcad807bfcc2e6a22c44547a8e651",
+      "size": 4159
+    },
+    {
+      "path": "fabrication/jlcpcb/firmware/build/logs/copter-build.log",
+      "mode": "100644",
+      "sha": "27dec1d8952bdc1b826f738f55d5403f338402d6",
+      "size": 75613
+    },
+    {
+      "path": "fabrication/jlcpcb/firmware/build/logs/copter-configure.log",
+      "mode": "100644",
+      "sha": "5dd4595709915814e7f9ba27cdc55b6b8d03d68d",
+      "size": 4753
+    },
+    {
+      "path": "fabrication/jlcpcb/firmware/build/manifest.json",
+      "mode": "100644",
+      "sha": "0f87ad994ff72768cb45ea9a396d223dbbd52a08",
+      "size": 885
+    },
+    {
+      "path": "fabrication/jlcpcb/firmware/targets/FCV2/defaults-postqual-bidir.parm",
+      "mode": "100644",
+      "sha": "efd6acca6a3dc2c52b6c04f3582085798c48b92d",
+      "size": 132
+    },
+    {
+      "path": "fabrication/jlcpcb/firmware/targets/FCV2/defaults.parm",
+      "mode": "100644",
+      "sha": "e22ee9d5e9d3bb0208477a619c997c693fdd42a6",
+      "size": 318
+    },
+    {
+      "path": "fabrication/jlcpcb/firmware/targets/FCV2/hwdef-bl.dat",
+      "mode": "100644",
+      "sha": "1718ae94cf3263f8f69374f586a1c9518239bb82",
+      "size": 875
+    },
+    {
+      "path": "fabrication/jlcpcb/firmware/targets/FCV2/hwdef.dat",
+      "mode": "100644",
+      "sha": "31f4fa318e0f34f294564c7960c222cd0c41fff2",
+      "size": 3594
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/3D models/(HSE)OSC-SMD_4P-L3.2-W2.5-CJ13-320001210A20.step",
+      "mode": "100644",
+      "sha": "1da985bb3480ead4cbf6e278e64c1bb4628c0d8a",
+      "size": 1526166
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/3D models/(zener)SOD-123FL_L2.8-W1.8-LS3.7-RD-1.step",
+      "mode": "100644",
+      "sha": "fb738c0eb9c3f2597837c44bfba6ef1ed0dd77ec",
+      "size": 475031
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/3D models/4pconnector1mm.step",
+      "mode": "100644",
+      "sha": "4d7e55fa69d4faf6a63bbb840df9d935ef2f1c3e",
+      "size": 1773046
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/3D models/8pconn.step",
+      "mode": "100644",
+      "sha": "5fabfa436a5f91dcbd4a6f675c69629b9db2163f",
+      "size": 2080281
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/3D models/AO3407A.step",
+      "mode": "100644",
+      "sha": "a343eac6aaa86e285fcb27f68658c08f5cca5fa6",
+      "size": 1197964
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/3D models/AP7343 .step",
+      "mode": "100644",
+      "sha": "948b0ede914ae3afff5a12aea9b23ec18a0ad7d1",
+      "size": 2942875
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/3D models/AT7456E.step",
+      "mode": "100644",
+      "sha": "6c6b278d9ce3cab001a4ca909a72c0457ca94102",
+      "size": 2723781
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/3D models/BMI270.step",
+      "mode": "100644",
+      "sha": "aa6f09c8500d41485976893219d8fd312a23c2be",
+      "size": 354385
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/3D models/BMP388.step",
+      "mode": "100644",
+      "sha": "8a4adf4d5230c6a9455b3bd58ca6bc25470ad0e8",
+      "size": 409415
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/3D models/FC_washer_double_sided_2mm.step",
+      "mode": "100644",
+      "sha": "1d1b012ecd2ec9b438cd606175cfe19fa50c167a",
+      "size": 412369
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/3D models/ICM-42688-P.step",
+      "mode": "100644",
+      "sha": "84175ff0396be8d0071d124f4d7392ebf8c26969",
+      "size": 357238
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/3D models/IND-SMD_L5.4-W5.2-H3.0.step",
+      "mode": "100644",
+      "sha": "18035735ed7aaa6221ab5c1e91acba6e5bb58dad",
+      "size": 1821345
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/3D models/USB4110GFA.step",
+      "mode": "100644",
+      "sha": "8aeaa9352b2774965ecce7dba856c457ad2b9e90",
+      "size": 3033071
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/3D models/W25Q128JVSIQ.step",
+      "mode": "100644",
+      "sha": "a9e26875f11e54d42ff075052179722c617294e3",
+      "size": 430185
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/FC_3D.3dshapes/Molex_105311-1202.step",
+      "mode": "100644",
+      "sha": "da938d352800aa6a528850bc4d3874c648b03e55",
+      "size": 221417
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/FC_Footprints.pretty/Molex_Nano-Fit_105311-1202_1x02_P2.50mm_Vertical_SolderClip.kicad_mod",
+      "mode": "100644",
+      "sha": "5b86bca546afc9b40eb627a07ab8692a35cc0e31",
+      "size": 3173
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/FC_Symbols.kicad_sym",
+      "mode": "100644",
+      "sha": "c4a5e40e2e97272e2feef0ce3c66223cad7bd5a0",
+      "size": 1789
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/Flight Controller.kicad_pcb",
+      "mode": "100644",
+      "sha": "6910d2d66da32b67763285232f7c27ffc39ea760",
+      "size": 2925215
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/Flight Controller.kicad_pro",
+      "mode": "100644",
+      "sha": "3d092699c683c5b6935637943ebab922e233bd1e",
+      "size": 21337
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/Flight Controller.kicad_sch",
+      "mode": "100644",
+      "sha": "b941c0f999541cedfa120f08eee15a9faf0109a0",
+      "size": 9041
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/MCU.kicad_sch",
+      "mode": "100644",
+      "sha": "e27f97b48f030dcf34986f3f0a85ba2e721acb42",
+      "size": 246032
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/Sensors.kicad_sch",
+      "mode": "100644",
+      "sha": "3c4b0953379a2d3c4712a6225d461a6a4777b26c",
+      "size": 280906
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/connectors.kicad_sch",
+      "mode": "100644",
+      "sha": "299ddb7037fbfe0eb26c5b0285c0c14ef5921bb9",
+      "size": 209548
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/fp-lib-table",
+      "mode": "100644",
+      "sha": "f617928f8b5b107129624687403182b94e99d680",
+      "size": 517
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/libraries/Solderpoint.pretty/BAT pad.kicad_mod",
+      "mode": "100644",
+      "sha": "62a4a275398bb5a20aed1cac1edf3b5e6ca3607c",
+      "size": 1682
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/libraries/Solderpoint.pretty/Solderpad.kicad_mod",
+      "mode": "100644",
+      "sha": "894b5c2bf8b67070e37fa9ef1f72ce4ca0ec2371",
+      "size": 1687
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/libraries/memo.pretty/(AP7343 )SOT-25_L3.0-W1.6-P0.95-LS2.8-BL.kicad_mod",
+      "mode": "100644",
+      "sha": "e6fe8f7e1729520bc31e3b67469d3cd328ae39a1",
+      "size": 3120
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/libraries/memo.pretty/(zener)SOD-123F_L2.8-W1.8-LS3.7-RD.kicad_mod",
+      "mode": "100644",
+      "sha": "96d8ef194622b437ec6c19738c1e840bff371d14",
+      "size": 2996
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/libraries/memo.pretty/AO3407A.kicad_mod",
+      "mode": "100644",
+      "sha": "182b82cec8cf2eaae0ad3c45c6899664210c1ef1",
+      "size": 2580
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/libraries/memo.pretty/AT7456E.kicad_mod",
+      "mode": "100644",
+      "sha": "10226393e441aef16cf5840361a83e271483a6de",
+      "size": 6533
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/libraries/memo.pretty/CONN-SMD_4P-P1.00_SM04B-SRSS-TB-LF-SN.kicad_mod",
+      "mode": "100644",
+      "sha": "c036142eca022fed6093d30eddae7e039cebdc92",
+      "size": 2864
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/libraries/memo.pretty/GCT_USB4110GFA.kicad_mod",
+      "mode": "100644",
+      "sha": "3abeef4735edd100098e04c4f39001e356108e57",
+      "size": 7597
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/libraries/memo.pretty/IND-SMD_L5.4-W5.2.kicad_mod",
+      "mode": "100644",
+      "sha": "6e3eaf1e95af92db309134915406972883be0bc5",
+      "size": 3091
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/libraries/memo.pretty/PQFN50P200X200X80-10N.kicad_mod",
+      "mode": "100644",
+      "sha": "8b57be925b409e9b122d302f3639cadb02a0405a",
+      "size": 9041
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/libraries/memo.pretty/PQFN50P300X250X97-14N.kicad_mod",
+      "mode": "100644",
+      "sha": "a0821cbb298e50bf01c7282b057bf8f7502e3f18",
+      "size": 42875
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/libraries/memo.pretty/W25Q128JVSIQ.kicad_mod",
+      "mode": "100644",
+      "sha": "e46f0170877efd2b2d8fa6972102086140ee88fe",
+      "size": 7507
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/libraries/memo.pretty/XDCR_BMI270.kicad_mod",
+      "mode": "100644",
+      "sha": "d2446065db84202705d23631fba7558bce1878a9",
+      "size": 9590
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/model-dependencies.json",
+      "mode": "100644",
+      "sha": "1fd7a03883ac7755ff203816ec6fa7817d2d484d",
+      "size": 690
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/power.kicad_sch",
+      "mode": "100644",
+      "sha": "57c355c5ecbb8820992e82804e1a9aa3dc2d5507",
+      "size": 268882
+    },
+    {
+      "path": "fabrication/jlcpcb/source/hardware/sym-lib-table",
+      "mode": "100644",
+      "sha": "2a7a0edc1d03b6e6266d36fef8f8ab7bfe417e7c",
+      "size": 170
+    },
+    {
+      "path": "fabrication/jlcpcb/source/source-manifest.json",
+      "mode": "100644",
+      "sha": "4fe84b16a00ea775aba8f0cf80640e9c46cde305",
+      "size": 412
+    },
+    {
+      "path": "fabrication/jlcpcb/verification/assembly-source-review.json",
+      "mode": "100644",
+      "sha": "5ec0de0833ba1d91d768eda85f939856a709c374",
+      "size": 705
+    },
+    {
+      "path": "fabrication/jlcpcb/verification/drc-command.log",
+      "mode": "100644",
+      "sha": "6e0fa5effd7190d53fefb52efb415c0e9d5c2d2d",
+      "size": 399
+    },
+    {
+      "path": "fabrication/jlcpcb/verification/drc.json",
+      "mode": "100644",
+      "sha": "81e08e4ce79359b675073dc751eeaaeb3b81c749",
+      "size": 2041
+    },
+    {
+      "path": "fabrication/jlcpcb/verification/erc-command.log",
+      "mode": "100644",
+      "sha": "fd0a68b4b1734df64f9da2615b115e583aceb5f7",
+      "size": 342
+    },
+    {
+      "path": "fabrication/jlcpcb/verification/erc.json",
+      "mode": "100644",
+      "sha": "42baadbe01c28b591b0362a1c8c20498dd790acd",
+      "size": 41943
+    },
+    {
+      "path": "fabrication/jlcpcb/verification/final-upload-pair.json",
+      "mode": "100644",
+      "sha": "456c62096bbd518dc0b25b27166fabaf32c4cd1a",
+      "size": 417
+    },
+    {
+      "path": "fabrication/jlcpcb/verification/netlist-command.log",
+      "mode": "100644",
+      "sha": "f7a287dc77e3d15a2901f15759b03febbcfb4cbf",
+      "size": 194
+    },
+    {
+      "path": "fabrication/jlcpcb/verification/netlist.xml",
+      "mode": "100644",
+      "sha": "b208c57d9fe01c93b568994302f28da18235bc52",
+      "size": 300338
+    },
+    {
+      "path": "fabrication/jlcpcb/verification/publication-corrections.json",
+      "mode": "100644",
+      "sha": "7d88ab41d164f091f03ee3e93d9a489000100a0c",
+      "size": 1226
+    },
+    {
+      "path": "fabrication/jlcpcb/verification/summary.json",
+      "mode": "100644",
+      "sha": "dbd32e03a5f4c08ee10b782a410863ec8f3bd153",
+      "size": 2896
+    },
+    {
+      "path": "fabrication/pcbway/README.md",
+      "mode": "100644",
+      "sha": "b79b803994bfe45622db28090901415b5c3a8d43",
+      "size": 2887
+    },
+    {
+      "path": "fabrication/pcbway/SHA256SUMS.csv",
+      "mode": "100644",
+      "sha": "ceac5a21930c848cbcfb3323b4039b9079adacab",
+      "size": 12653
+    },
+    {
+      "path": "fabrication/pcbway/assembly/FC_EVT1_PCBWAY-DNP-and-NonPurchased.csv",
+      "mode": "100644",
+      "sha": "dca77428cc44c5d2b6ad1c90467fa2235e0096f6",
+      "size": 730
+    },
+    {
+      "path": "fabrication/pcbway/assembly/FC_EVT1_PCBWAY-SMT-Centroid-Bottom.csv",
+      "mode": "100644",
+      "sha": "9ccaeb5ef48e6071fdef11c11c72450d04a89dfb",
+      "size": 3440
+    },
+    {
+      "path": "fabrication/pcbway/assembly/FC_EVT1_PCBWAY-SMT-Centroid-Top.csv",
+      "mode": "100644",
+      "sha": "69e2524dcb85daa1464e393888f80ceae3d3dc3e",
+      "size": 3358
+    },
+    {
+      "path": "fabrication/pcbway/assembly/FC_EVT1_PCBWAY-SMT-Centroid.csv",
+      "mode": "100644",
+      "sha": "1c302eac9bbed0a020518c25587ef8b83bf04ab8",
+      "size": 6733
+    },
+    {
+      "path": "fabrication/pcbway/assembly/FC_EVT1_PCBWAY-THT-Placement.csv",
+      "mode": "100644",
+      "sha": "e43aa4ecec187b0292c1e196506feef3cadb8165",
+      "size": 179
+    },
+    {
+      "path": "fabrication/pcbway/assembly/FC_EVT1_PCBWAY-Turnkey-BOM.csv",
+      "mode": "100644",
+      "sha": "febb26021814f3c0860e3257fbb6afd8067cf4dd",
+      "size": 24365
+    },
+    {
+      "path": "fabrication/pcbway/assembly/reference/FC_EVT1_PCBWAY-BOM-raw.csv",
+      "mode": "100644",
+      "sha": "00574375db003b050d603377b1b292cc85b54edd",
+      "size": 27117
+    },
+    {
+      "path": "fabrication/pcbway/assembly/reference/FC_EVT1_PCBWAY-position-raw.csv",
+      "mode": "100644",
+      "sha": "cf67d0ec2644c2a36ea89871f2aaf4058732d58e",
+      "size": 11742
+    },
+    {
+      "path": "fabrication/pcbway/documents/CHANGE_MANIFEST.md",
+      "mode": "100644",
+      "sha": "c99438c867efebe04d4fa587ffce9181139d4c3f",
+      "size": 744
+    },
+    {
+      "path": "fabrication/pcbway/documents/PCBWay_Controlled_Impedance_Report.md",
+      "mode": "100644",
+      "sha": "10531ca3379212194c516ed8e0d12c8942c16f27",
+      "size": 1402
+    },
+    {
+      "path": "fabrication/pcbway/documents/PCBWay_Fabrication_and_Order_Settings.md",
+      "mode": "100644",
+      "sha": "6ec8628145fd0fa02193e4d749f6e81620c825b1",
+      "size": 963
+    },
+    {
+      "path": "fabrication/pcbway/documents/PCBWay_J12_Sourcing_and_THT_Instructions.md",
+      "mode": "100644",
+      "sha": "f2171a77826c21c1cbb878ca9fe5af1bdfe6c587",
+      "size": 731
+    },
+    {
+      "path": "fabrication/pcbway/documents/PCBWay_Panelization_Instructions.md",
+      "mode": "100644",
+      "sha": "5a372bc87a440fc2b2427b6472134eba0b3b4a00",
+      "size": 1014
+    },
+    {
+      "path": "fabrication/pcbway/documents/PCBWay_Upload_Map.md",
+      "mode": "100644",
+      "sha": "31f32bc5fbdf5cfa0d33fec2230b74d981b7fc70",
+      "size": 1088
+    },
+    {
+      "path": "fabrication/pcbway/documents/Physical_Validation_Worksheet.md",
+      "mode": "100644",
+      "sha": "3a999a76fd65393836dcef3569064185b1a6cec4",
+      "size": 785
+    },
+    {
+      "path": "fabrication/pcbway/documents/Power_Path_Calculation.md",
+      "mode": "100644",
+      "sha": "ff3caf4f011559ec0e5d8d8d1e5a0aae4ae2b5b9",
+      "size": 613
+    },
+    {
+      "path": "fabrication/pcbway/exports/assembly.pdf",
+      "mode": "100644",
+      "sha": "53c11fa2e0b3e360bfc52a847879c11ce63988f1",
+      "size": 232858
+    },
+    {
+      "path": "fabrication/pcbway/exports/board.step",
+      "mode": "100644",
+      "sha": "e2b87bbfe6355e3396731a9488b05d0a60c854ff",
+      "size": 16933692
+    },
+    {
+      "path": "fabrication/pcbway/exports/export-manifest.json",
+      "mode": "100644",
+      "sha": "f022ca6b9577153be34af4cc11eec0c8210cf99a",
+      "size": 3247
+    },
+    {
+      "path": "fabrication/pcbway/exports/fabrication.pdf",
+      "mode": "100644",
+      "sha": "10569052b38159485724ded775c90d41d74d84fa",
+      "size": 163434
+    },
+    {
+      "path": "fabrication/pcbway/exports/schematic.pdf",
+      "mode": "100644",
+      "sha": "f247e08c76b5fb4cd4762e5f5807e20437de302f",
+      "size": 772840
+    },
+    {
+      "path": "fabrication/pcbway/fabrication/Gerber-Drill-Upload.zip",
+      "mode": "100644",
+      "sha": "c76b4720046b7d8e085e1bb537e31ca34ea10dfc",
+      "size": 591130
+    },
+    {
+      "path": "fabrication/pcbway/fabrication/drill-report.txt",
+      "mode": "100644",
+      "sha": "a89af465ce3ba7e4bfe6474b9564acbb67bbf623",
+      "size": 1024
+    },
+    {
+      "path": "fabrication/pcbway/fabrication/drill/Flight Controller-NPTH.drl",
+      "mode": "100644",
+      "sha": "29d86423d1d72651056c0efe8eb669d2de27b2ea",
+      "size": 344
+    },
+    {
+      "path": "fabrication/pcbway/fabrication/drill/Flight Controller-PTH.drl",
+      "mode": "100644",
+      "sha": "1e004bd870f59de3e1e3ef46986cd78deb215374",
+      "size": 6942
+    },
+    {
+      "path": "fabrication/pcbway/fabrication/gerbers/Flight Controller-B_Cu (SIG PWR).gbl",
+      "mode": "100644",
+      "sha": "a1ab182e9f24ba1aa22a4388ac79faf0bd861194",
+      "size": 451212
+    },
+    {
+      "path": "fabrication/pcbway/fabrication/gerbers/Flight Controller-B_Mask.gbs",
+      "mode": "100644",
+      "sha": "68c6ad9b3b8fd5405a91435dacf460797ec415fa",
+      "size": 14251
+    },
+    {
+      "path": "fabrication/pcbway/fabrication/gerbers/Flight Controller-B_Paste.gbp",
+      "mode": "100644",
+      "sha": "bd5a2e01d84443b1e19364b377cae1c67f428d03",
+      "size": 9856
+    },
+    {
+      "path": "fabrication/pcbway/fabrication/gerbers/Flight Controller-B_Silkscreen.gbo",
+      "mode": "100644",
+      "sha": "841a4657683a32957f49af85193f850cca7e7eac",
+      "size": 112398
+    },
+    {
+      "path": "fabrication/pcbway/fabrication/gerbers/Flight Controller-Edge_Cuts.gm1",
+      "mode": "100644",
+      "sha": "bd1e4485c24a00466b068876810bce2ce777a67e",
+      "size": 1520
+    },
+    {
+      "path": "fabrication/pcbway/fabrication/gerbers/Flight Controller-F_Cu (SIG PWR).gtl",
+      "mode": "100644",
+      "sha": "a489c04045eb92c6aaff664960bfa95169bf6d27",
+      "size": 519518
+    },
+    {
+      "path": "fabrication/pcbway/fabrication/gerbers/Flight Controller-F_Mask.gts",
+      "mode": "100644",
+      "sha": "048138a7c6e3069da1e999512a643ec29129a9ee",
+      "size": 103857
+    },
+    {
+      "path": "fabrication/pcbway/fabrication/gerbers/Flight Controller-F_Paste.gtp",
+      "mode": "100644",
+      "sha": "dc13c74d58e02172e94a5b8dd98c79d9e57f74e0",
+      "size": 12254
+    },
+    {
+      "path": "fabrication/pcbway/fabrication/gerbers/Flight Controller-F_Silkscreen.gto",
+      "mode": "100644",
+      "sha": "26a5c60f14ab422f5534363bb60683c893cb45d8",
+      "size": 239055
+    },
+    {
+      "path": "fabrication/pcbway/fabrication/gerbers/Flight Controller-In1_Cu (GND).g1",
+      "mode": "100644",
+      "sha": "49ffd6717dc2997b43481dee5bc936685175baa1",
+      "size": 271934
+    },
+    {
+      "path": "fabrication/pcbway/fabrication/gerbers/Flight Controller-In2_Cu (SIG PWR).g2",
+      "mode": "100644",
+      "sha": "c51e6e91540382e963603a6313c9423059888474",
+      "size": 342824
+    },
+    {
+      "path": "fabrication/pcbway/fabrication/gerbers/Flight Controller-In3_Cu(GND SIG).g3",
+      "mode": "100644",
+      "sha": "677c3f921efcfa23b2a73adc720605c57b2a2f8b",
+      "size": 182821
+    },
+    {
+      "path": "fabrication/pcbway/fabrication/gerbers/Flight Controller-In4_Cu (GND).g4",
+      "mode": "100644",
+      "sha": "51bccff367759664db00fe2fce37dbc48c4c7aa1",
+      "size": 188432
+    },
+    {
+      "path": "fabrication/pcbway/fabrication/gerbers/Flight Controller-job.gbrjob",
+      "mode": "100644",
+      "sha": "2caf300a15d6abdea2cbc4e993ce910f5bfe025a",
+      "size": 5093
+    },
+    {
+      "path": "fabrication/pcbway/fabrication/netlist.ipc",
+      "mode": "100644",
+      "sha": "ac6e67d188955a0481c4edeba1bc8788696b2758",
+      "size": 69311
+    },
+    {
+      "path": "fabrication/pcbway/firmware/README.md",
+      "mode": "100644",
+      "sha": "5b724ad536e1ec1ae61066f2337f552783f815f0",
+      "size": 2574
+    },
+    {
+      "path": "fabrication/pcbway/firmware/binaries/FCV2_bl.bin",
+      "mode": "100644",
+      "sha": "d1439560b79ad6e3d77c9d0b4679947f957d13be",
+      "size": 18796
+    },
+    {
+      "path": "fabrication/pcbway/firmware/binaries/arducopter.apj",
+      "mode": "100644",
+      "sha": "8bc707b9558663b454f0dcc4f3a37c81983aacf2",
+      "size": 1247376
+    },
+    {
+      "path": "fabrication/pcbway/firmware/binaries/arducopter.bin",
+      "mode": "100644",
+      "sha": "c5b3535177c823d31137fe17c88ef92567f4a0a5",
+      "size": 1400584
+    },
+    {
+      "path": "fabrication/pcbway/firmware/build/build.sh",
+      "mode": "100644",
+      "sha": "bcfa1750235f0cc6da2dfa868e02ad3c3cd90129",
+      "size": 650
+    },
+    {
+      "path": "fabrication/pcbway/firmware/build/logs/bootloader-build.log",
+      "mode": "100644",
+      "sha": "15b4b88a693c4b1f973ed2e986caaadcee9ce9e5",
+      "size": 18937
+    },
+    {
+      "path": "fabrication/pcbway/firmware/build/logs/bootloader-configure.log",
+      "mode": "100644",
+      "sha": "ad847bb7d82bcad807bfcc2e6a22c44547a8e651",
+      "size": 4159
+    },
+    {
+      "path": "fabrication/pcbway/firmware/build/logs/copter-build.log",
+      "mode": "100644",
+      "sha": "27dec1d8952bdc1b826f738f55d5403f338402d6",
+      "size": 75613
+    },
+    {
+      "path": "fabrication/pcbway/firmware/build/logs/copter-configure.log",
+      "mode": "100644",
+      "sha": "5dd4595709915814e7f9ba27cdc55b6b8d03d68d",
+      "size": 4753
+    },
+    {
+      "path": "fabrication/pcbway/firmware/build/manifest.json",
+      "mode": "100644",
+      "sha": "0f87ad994ff72768cb45ea9a396d223dbbd52a08",
+      "size": 885
+    },
+    {
+      "path": "fabrication/pcbway/firmware/targets/FCV2/defaults-postqual-bidir.parm",
+      "mode": "100644",
+      "sha": "efd6acca6a3dc2c52b6c04f3582085798c48b92d",
+      "size": 132
+    },
+    {
+      "path": "fabrication/pcbway/firmware/targets/FCV2/defaults.parm",
+      "mode": "100644",
+      "sha": "e22ee9d5e9d3bb0208477a619c997c693fdd42a6",
+      "size": 318
+    },
+    {
+      "path": "fabrication/pcbway/firmware/targets/FCV2/hwdef-bl.dat",
+      "mode": "100644",
+      "sha": "1718ae94cf3263f8f69374f586a1c9518239bb82",
+      "size": 875
+    },
+    {
+      "path": "fabrication/pcbway/firmware/targets/FCV2/hwdef.dat",
+      "mode": "100644",
+      "sha": "31f4fa318e0f34f294564c7960c222cd0c41fff2",
+      "size": 3594
+    },
+    {
+      "path": "fabrication/pcbway/harness/POWER1_Harness_BOM.csv",
+      "mode": "100644",
+      "sha": "58ee75fb6e37044c2ddfc0f6f68333e34c1f829c",
+      "size": 465
+    },
+    {
+      "path": "fabrication/pcbway/harness/POWER1_Harness_Cut_and_Test_Table.csv",
+      "mode": "100644",
+      "sha": "912c3fba03f1749b7b87b0b7d04cd6dfef66ed7c",
+      "size": 217
+    },
+    {
+      "path": "fabrication/pcbway/harness/POWER1_Harness_Drawing_and_Instructions.md",
+      "mode": "100644",
+      "sha": "60c04dfe7e1697e4f081c83e1bcc6ddec79d2c11",
+      "size": 829
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/3D models/(HSE)OSC-SMD_4P-L3.2-W2.5-CJ13-320001210A20.step",
+      "mode": "100644",
+      "sha": "1da985bb3480ead4cbf6e278e64c1bb4628c0d8a",
+      "size": 1526166
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/3D models/(zener)SOD-123FL_L2.8-W1.8-LS3.7-RD-1.step",
+      "mode": "100644",
+      "sha": "fb738c0eb9c3f2597837c44bfba6ef1ed0dd77ec",
+      "size": 475031
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/3D models/4pconnector1mm.step",
+      "mode": "100644",
+      "sha": "4d7e55fa69d4faf6a63bbb840df9d935ef2f1c3e",
+      "size": 1773046
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/3D models/8pconn.step",
+      "mode": "100644",
+      "sha": "5fabfa436a5f91dcbd4a6f675c69629b9db2163f",
+      "size": 2080281
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/3D models/AO3407A.step",
+      "mode": "100644",
+      "sha": "a343eac6aaa86e285fcb27f68658c08f5cca5fa6",
+      "size": 1197964
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/3D models/AP7343 .step",
+      "mode": "100644",
+      "sha": "948b0ede914ae3afff5a12aea9b23ec18a0ad7d1",
+      "size": 2942875
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/3D models/AT7456E.step",
+      "mode": "100644",
+      "sha": "6c6b278d9ce3cab001a4ca909a72c0457ca94102",
+      "size": 2723781
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/3D models/BMI270.step",
+      "mode": "100644",
+      "sha": "aa6f09c8500d41485976893219d8fd312a23c2be",
+      "size": 354385
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/3D models/BMP388.step",
+      "mode": "100644",
+      "sha": "8a4adf4d5230c6a9455b3bd58ca6bc25470ad0e8",
+      "size": 409415
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/3D models/FC_washer_double_sided_2mm.step",
+      "mode": "100644",
+      "sha": "1d1b012ecd2ec9b438cd606175cfe19fa50c167a",
+      "size": 412369
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/3D models/ICM-42688-P.step",
+      "mode": "100644",
+      "sha": "84175ff0396be8d0071d124f4d7392ebf8c26969",
+      "size": 357238
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/3D models/IND-SMD_L5.4-W5.2-H3.0.step",
+      "mode": "100644",
+      "sha": "18035735ed7aaa6221ab5c1e91acba6e5bb58dad",
+      "size": 1821345
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/3D models/USB4110GFA.step",
+      "mode": "100644",
+      "sha": "8aeaa9352b2774965ecce7dba856c457ad2b9e90",
+      "size": 3033071
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/3D models/W25Q128JVSIQ.step",
+      "mode": "100644",
+      "sha": "a9e26875f11e54d42ff075052179722c617294e3",
+      "size": 430185
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/FC_3D.3dshapes/Molex_105311-1202.step",
+      "mode": "100644",
+      "sha": "da938d352800aa6a528850bc4d3874c648b03e55",
+      "size": 221417
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/FC_Footprints.pretty/Molex_Nano-Fit_105311-1202_1x02_P2.50mm_Vertical_SolderClip.kicad_mod",
+      "mode": "100644",
+      "sha": "5b86bca546afc9b40eb627a07ab8692a35cc0e31",
+      "size": 3173
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/FC_Symbols.kicad_sym",
+      "mode": "100644",
+      "sha": "c4a5e40e2e97272e2feef0ce3c66223cad7bd5a0",
+      "size": 1789
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/Flight Controller.kicad_pcb",
+      "mode": "100644",
+      "sha": "7422d42a78c93f1338a05306881269de7bd50129",
+      "size": 3110793
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/Flight Controller.kicad_pro",
+      "mode": "100644",
+      "sha": "3d092699c683c5b6935637943ebab922e233bd1e",
+      "size": 21337
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/Flight Controller.kicad_sch",
+      "mode": "100644",
+      "sha": "b941c0f999541cedfa120f08eee15a9faf0109a0",
+      "size": 9041
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/MCU.kicad_sch",
+      "mode": "100644",
+      "sha": "96dc382c750163d925cf6cd0d8416132f0803373",
+      "size": 310776
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/Sensors.kicad_sch",
+      "mode": "100644",
+      "sha": "1cfc9f070ef09951fc30cb7dd8e45e209f39c8d2",
+      "size": 368495
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/connectors.kicad_sch",
+      "mode": "100644",
+      "sha": "b6c50302243b236bb83350017d9a4556ad9f0aba",
+      "size": 233894
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/fp-lib-table",
+      "mode": "100644",
+      "sha": "f617928f8b5b107129624687403182b94e99d680",
+      "size": 517
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/libraries/Solderpoint.pretty/BAT pad.kicad_mod",
+      "mode": "100644",
+      "sha": "fbc3bd117636a88d9779d225f7faa45885b7a35d",
+      "size": 1682
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/libraries/Solderpoint.pretty/Solderpad.kicad_mod",
+      "mode": "100644",
+      "sha": "64fa8e22f9437de847b273f56e0a905803eb1bb6",
+      "size": 1687
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/libraries/memo.pretty/(AP7343 )SOT-25_L3.0-W1.6-P0.95-LS2.8-BL.kicad_mod",
+      "mode": "100644",
+      "sha": "633629d89431707f58429a079364bff1f93db8f3",
+      "size": 6092
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/libraries/memo.pretty/(zener)SOD-123F_L2.8-W1.8-LS3.7-RD.kicad_mod",
+      "mode": "100644",
+      "sha": "3068d40ca4092cdb115f8a3209a4f296cfd02457",
+      "size": 6232
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/libraries/memo.pretty/AO3407A.kicad_mod",
+      "mode": "100644",
+      "sha": "1671f688501578897e4089b9b105ed2317418735",
+      "size": 5817
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/libraries/memo.pretty/AT7456E.kicad_mod",
+      "mode": "100644",
+      "sha": "447138badea7dba35ca12896bb263bc601aaad35",
+      "size": 9747
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/libraries/memo.pretty/CONN-SMD_4P-P1.00_SM04B-SRSS-TB-LF-SN.kicad_mod",
+      "mode": "100644",
+      "sha": "1d0b81e2199bff0017ba98f9f97a58b93584ab5d",
+      "size": 6107
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/libraries/memo.pretty/GCT_USB4110GFA.kicad_mod",
+      "mode": "100644",
+      "sha": "00e21c3e9f918fe644dc1d579e0584528cdc25b1",
+      "size": 10557
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/libraries/memo.pretty/IND-SMD_L5.4-W5.2.kicad_mod",
+      "mode": "100644",
+      "sha": "0aa6f46ece8bd81d0e2321886fc765a9b83a2cda",
+      "size": 6401
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/libraries/memo.pretty/PQFN50P200X200X80-10N.kicad_mod",
+      "mode": "100644",
+      "sha": "f9645dca57aa434dabab91eee15147b23fe963b7",
+      "size": 12002
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/libraries/memo.pretty/PQFN50P300X250X97-14N.kicad_mod",
+      "mode": "100644",
+      "sha": "21e47c697100999399c8f3563655130dd277aa0e",
+      "size": 45832
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/libraries/memo.pretty/W25Q128JVSIQ.kicad_mod",
+      "mode": "100644",
+      "sha": "8d51e0239a772427e69dcc483336410e0d8277e8",
+      "size": 10737
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/libraries/memo.pretty/XDCR_BMI270.kicad_mod",
+      "mode": "100644",
+      "sha": "cd2d5e6f39cd15423e997e13436f1076ba7e9b08",
+      "size": 12538
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/model-dependencies.json",
+      "mode": "100644",
+      "sha": "1fd7a03883ac7755ff203816ec6fa7817d2d484d",
+      "size": 690
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/power.kicad_sch",
+      "mode": "100644",
+      "sha": "5278865f27d6406c19969f3a8f39df78b3d31fd6",
+      "size": 353230
+    },
+    {
+      "path": "fabrication/pcbway/source/hardware/sym-lib-table",
+      "mode": "100644",
+      "sha": "2a7a0edc1d03b6e6266d36fef8f8ab7bfe417e7c",
+      "size": 170
+    },
+    {
+      "path": "fabrication/pcbway/source/source-manifest.json",
+      "mode": "100644",
+      "sha": "0bbf302720047fe2a32ab56d2c294ef51790a8d9",
+      "size": 412
+    },
+    {
+      "path": "fabrication/pcbway/verification/assembly-source-review.json",
+      "mode": "100644",
+      "sha": "b228f7926707fd7ea4b54c44556cbfd1353cde22",
+      "size": 1502
+    },
+    {
+      "path": "fabrication/pcbway/verification/drc-command.log",
+      "mode": "100644",
+      "sha": "e36c311e1122cae42425dc75b65b8f06b5e476af",
+      "size": 399
+    },
+    {
+      "path": "fabrication/pcbway/verification/drc.json",
+      "mode": "100644",
+      "sha": "e06bb3596d7e4821c3ea5f9b49ffd142badd15ca",
+      "size": 2041
+    },
+    {
+      "path": "fabrication/pcbway/verification/erc-command.log",
+      "mode": "100644",
+      "sha": "8e1fef38002e5406cd33a4d005b558e49cc1e3cd",
+      "size": 342
+    },
+    {
+      "path": "fabrication/pcbway/verification/erc.json",
+      "mode": "100644",
+      "sha": "3577d012707bc92bc5c758eb27aed7c8ca9a5e10",
+      "size": 41943
+    },
+    {
+      "path": "fabrication/pcbway/verification/final-upload-pair.json",
+      "mode": "100644",
+      "sha": "ea5bbb1984257d9235b8ca0987cbc0c9f4422578",
+      "size": 435
+    },
+    {
+      "path": "fabrication/pcbway/verification/netlist-command.log",
+      "mode": "100644",
+      "sha": "79f0af71061773b56d26a71684cd41daf17975bb",
+      "size": 194
+    },
+    {
+      "path": "fabrication/pcbway/verification/netlist.xml",
+      "mode": "100644",
+      "sha": "89864731a493a564f5bd2a32044431827f6e3e50",
+      "size": 511224
+    },
+    {
+      "path": "fabrication/pcbway/verification/publication-corrections.json",
+      "mode": "100644",
+      "sha": "d529f6884b1d17f9709018533f1d9d571cd64caa",
+      "size": 226699
+    },
+    {
+      "path": "fabrication/pcbway/verification/summary.json",
+      "mode": "100644",
+      "sha": "4bce3a4bdba5d93006f4ab53b0e3761e2f3a6fe0",
+      "size": 2896
+    },
+    {
+      "path": "firmware/README.md",
+      "mode": "100644",
+      "sha": "5b724ad536e1ec1ae61066f2337f552783f815f0",
+      "size": 2574
+    },
+    {
+      "path": "firmware/binaries/FCV2_bl.bin",
+      "mode": "100644",
+      "sha": "d1439560b79ad6e3d77c9d0b4679947f957d13be",
+      "size": 18796
+    },
+    {
+      "path": "firmware/binaries/arducopter.apj",
+      "mode": "100644",
+      "sha": "8bc707b9558663b454f0dcc4f3a37c81983aacf2",
+      "size": 1247376
+    },
+    {
+      "path": "firmware/binaries/arducopter.bin",
+      "mode": "100644",
+      "sha": "c5b3535177c823d31137fe17c88ef92567f4a0a5",
+      "size": 1400584
+    },
+    {
+      "path": "firmware/build/build.sh",
+      "mode": "100644",
+      "sha": "bcfa1750235f0cc6da2dfa868e02ad3c3cd90129",
+      "size": 650
+    },
+    {
+      "path": "firmware/build/logs/bootloader-build.log",
+      "mode": "100644",
+      "sha": "15b4b88a693c4b1f973ed2e986caaadcee9ce9e5",
+      "size": 18937
+    },
+    {
+      "path": "firmware/build/logs/bootloader-configure.log",
+      "mode": "100644",
+      "sha": "ad847bb7d82bcad807bfcc2e6a22c44547a8e651",
+      "size": 4159
+    },
+    {
+      "path": "firmware/build/logs/copter-build.log",
+      "mode": "100644",
+      "sha": "27dec1d8952bdc1b826f738f55d5403f338402d6",
+      "size": 75613
+    },
+    {
+      "path": "firmware/build/logs/copter-configure.log",
+      "mode": "100644",
+      "sha": "5dd4595709915814e7f9ba27cdc55b6b8d03d68d",
+      "size": 4753
+    },
+    {
+      "path": "firmware/build/manifest.json",
+      "mode": "100644",
+      "sha": "0f87ad994ff72768cb45ea9a396d223dbbd52a08",
+      "size": 885
+    },
+    {
+      "path": "firmware/targets/FCV2/defaults-postqual-bidir.parm",
+      "mode": "100644",
+      "sha": "efd6acca6a3dc2c52b6c04f3582085798c48b92d",
+      "size": 132
+    },
+    {
+      "path": "firmware/targets/FCV2/defaults.parm",
+      "mode": "100644",
+      "sha": "e22ee9d5e9d3bb0208477a619c997c693fdd42a6",
+      "size": 318
+    },
+    {
+      "path": "firmware/targets/FCV2/hwdef-bl.dat",
+      "mode": "100644",
+      "sha": "1718ae94cf3263f8f69374f586a1c9518239bb82",
+      "size": 875
+    },
+    {
+      "path": "firmware/targets/FCV2/hwdef.dat",
+      "mode": "100644",
+      "sha": "31f4fa318e0f34f294564c7960c222cd0c41fff2",
+      "size": 3594
+    },
+    {
+      "path": "hardware/3D models/(HSE)OSC-SMD_4P-L3.2-W2.5-CJ13-320001210A20.step",
+      "mode": "100644",
+      "sha": "1da985bb3480ead4cbf6e278e64c1bb4628c0d8a",
+      "size": 1526166
+    },
+    {
+      "path": "hardware/3D models/(zener)SOD-123FL_L2.8-W1.8-LS3.7-RD-1.step",
+      "mode": "100644",
+      "sha": "fb738c0eb9c3f2597837c44bfba6ef1ed0dd77ec",
+      "size": 475031
+    },
+    {
+      "path": "hardware/3D models/4pconnector1mm.step",
+      "mode": "100644",
+      "sha": "4d7e55fa69d4faf6a63bbb840df9d935ef2f1c3e",
+      "size": 1773046
+    },
+    {
+      "path": "hardware/3D models/8pconn.step",
+      "mode": "100644",
+      "sha": "5fabfa436a5f91dcbd4a6f675c69629b9db2163f",
+      "size": 2080281
+    },
+    {
+      "path": "hardware/3D models/AO3407A.step",
+      "mode": "100644",
+      "sha": "a343eac6aaa86e285fcb27f68658c08f5cca5fa6",
+      "size": 1197964
+    },
+    {
+      "path": "hardware/3D models/AP7343 .step",
+      "mode": "100644",
+      "sha": "948b0ede914ae3afff5a12aea9b23ec18a0ad7d1",
+      "size": 2942875
+    },
+    {
+      "path": "hardware/3D models/AT7456E.step",
+      "mode": "100644",
+      "sha": "6c6b278d9ce3cab001a4ca909a72c0457ca94102",
+      "size": 2723781
+    },
+    {
+      "path": "hardware/3D models/BMI270.step",
+      "mode": "100644",
+      "sha": "aa6f09c8500d41485976893219d8fd312a23c2be",
+      "size": 354385
+    },
+    {
+      "path": "hardware/3D models/BMP388.step",
+      "mode": "100644",
+      "sha": "8a4adf4d5230c6a9455b3bd58ca6bc25470ad0e8",
+      "size": 409415
+    },
+    {
+      "path": "hardware/3D models/FC_washer_double_sided_2mm.step",
+      "mode": "100644",
+      "sha": "1d1b012ecd2ec9b438cd606175cfe19fa50c167a",
+      "size": 412369
+    },
+    {
+      "path": "hardware/3D models/ICM-42688-P.step",
+      "mode": "100644",
+      "sha": "84175ff0396be8d0071d124f4d7392ebf8c26969",
+      "size": 357238
+    },
+    {
+      "path": "hardware/3D models/IND-SMD_L5.4-W5.2-H3.0.step",
+      "mode": "100644",
+      "sha": "18035735ed7aaa6221ab5c1e91acba6e5bb58dad",
+      "size": 1821345
+    },
+    {
+      "path": "hardware/3D models/USB4110GFA.step",
+      "mode": "100644",
+      "sha": "8aeaa9352b2774965ecce7dba856c457ad2b9e90",
+      "size": 3033071
+    },
+    {
+      "path": "hardware/3D models/W25Q128JVSIQ.step",
+      "mode": "100644",
+      "sha": "a9e26875f11e54d42ff075052179722c617294e3",
+      "size": 430185
+    },
+    {
+      "path": "hardware/FC_3D.3dshapes/Molex_105311-1202.step",
+      "mode": "100644",
+      "sha": "da938d352800aa6a528850bc4d3874c648b03e55",
+      "size": 221417
+    },
+    {
+      "path": "hardware/FC_Footprints.pretty/Molex_Nano-Fit_105311-1202_1x02_P2.50mm_Vertical_SolderClip.kicad_mod",
+      "mode": "100644",
+      "sha": "5b86bca546afc9b40eb627a07ab8692a35cc0e31",
+      "size": 3173
+    },
+    {
+      "path": "hardware/FC_Symbols.kicad_sym",
+      "mode": "100644",
+      "sha": "c4a5e40e2e97272e2feef0ce3c66223cad7bd5a0",
+      "size": 1789
+    },
+    {
+      "path": "hardware/Flight Controller.kicad_pcb",
+      "mode": "100644",
+      "sha": "7422d42a78c93f1338a05306881269de7bd50129",
+      "size": 3110793
+    },
+    {
+      "path": "hardware/Flight Controller.kicad_pro",
+      "mode": "100644",
+      "sha": "3d092699c683c5b6935637943ebab922e233bd1e",
+      "size": 21337
+    },
+    {
+      "path": "hardware/Flight Controller.kicad_sch",
+      "mode": "100644",
+      "sha": "b941c0f999541cedfa120f08eee15a9faf0109a0",
+      "size": 9041
+    },
+    {
+      "path": "hardware/MCU.kicad_sch",
+      "mode": "100644",
+      "sha": "96dc382c750163d925cf6cd0d8416132f0803373",
+      "size": 310776
+    },
+    {
+      "path": "hardware/README.md",
+      "mode": "100644",
+      "sha": "a34d48b9be599e5776761b9035d71a0a923753fa",
+      "size": 886
+    },
+    {
+      "path": "hardware/Sensors.kicad_sch",
+      "mode": "100644",
+      "sha": "1cfc9f070ef09951fc30cb7dd8e45e209f39c8d2",
+      "size": 368495
+    },
+    {
+      "path": "hardware/connectors.kicad_sch",
+      "mode": "100644",
+      "sha": "b6c50302243b236bb83350017d9a4556ad9f0aba",
+      "size": 233894
+    },
+    {
+      "path": "hardware/fp-lib-table",
+      "mode": "100644",
+      "sha": "f617928f8b5b107129624687403182b94e99d680",
+      "size": 517
+    },
+    {
+      "path": "hardware/libraries/Solderpoint.pretty/BAT pad.kicad_mod",
+      "mode": "100644",
+      "sha": "f07f31111b03fd70d69e4d5f72fb63b75669ca8a",
+      "size": 1682
+    },
+    {
+      "path": "hardware/libraries/Solderpoint.pretty/Solderpad.kicad_mod",
+      "mode": "100644",
+      "sha": "b3354dc3ba1a58e6325d1def944ea1ad4b1e3d73",
+      "size": 1687
+    },
+    {
+      "path": "hardware/libraries/memo.pretty/(AP7343 )SOT-25_L3.0-W1.6-P0.95-LS2.8-BL.kicad_mod",
+      "mode": "100644",
+      "sha": "cbad80d23744c36557069bafbb44e18b6a88f71c",
+      "size": 6092
+    },
+    {
+      "path": "hardware/libraries/memo.pretty/(zener)SOD-123F_L2.8-W1.8-LS3.7-RD.kicad_mod",
+      "mode": "100644",
+      "sha": "6eb3957ee374cb7521a4eff9524e4a75e4791785",
+      "size": 6232
+    },
+    {
+      "path": "hardware/libraries/memo.pretty/AO3407A.kicad_mod",
+      "mode": "100644",
+      "sha": "a5c7e2628b9955e60cbf7308690aaf1b61f1d550",
+      "size": 5817
+    },
+    {
+      "path": "hardware/libraries/memo.pretty/AT7456E.kicad_mod",
+      "mode": "100644",
+      "sha": "922b339da857c9f3f9e94ccf0a18499a8c4ad81b",
+      "size": 9747
+    },
+    {
+      "path": "hardware/libraries/memo.pretty/CONN-SMD_4P-P1.00_SM04B-SRSS-TB-LF-SN.kicad_mod",
+      "mode": "100644",
+      "sha": "77f87c80eb44fa0f19c4c51738017db4e3e9511c",
+      "size": 6107
+    },
+    {
+      "path": "hardware/libraries/memo.pretty/GCT_USB4110GFA.kicad_mod",
+      "mode": "100644",
+      "sha": "5d63c38816af5755cfb15bc5fdffab7fdcc306cc",
+      "size": 10557
+    },
+    {
+      "path": "hardware/libraries/memo.pretty/IND-SMD_L5.4-W5.2.kicad_mod",
+      "mode": "100644",
+      "sha": "084bdf3daa5439f1161ad6ab3b413a9f77f6c134",
+      "size": 6401
+    },
+    {
+      "path": "hardware/libraries/memo.pretty/PQFN50P200X200X80-10N.kicad_mod",
+      "mode": "100644",
+      "sha": "75356b49ad014b35791250f62b5d23137f950cc2",
+      "size": 12002
+    },
+    {
+      "path": "hardware/libraries/memo.pretty/PQFN50P300X250X97-14N.kicad_mod",
+      "mode": "100644",
+      "sha": "f693663490bd8ce8753421800562bb1e1e4e0b30",
+      "size": 45832
+    },
+    {
+      "path": "hardware/libraries/memo.pretty/W25Q128JVSIQ.kicad_mod",
+      "mode": "100644",
+      "sha": "a57d19936bb9944f444692f18a8ae1c16e78d7d5",
+      "size": 10737
+    },
+    {
+      "path": "hardware/libraries/memo.pretty/XDCR_BMI270.kicad_mod",
+      "mode": "100644",
+      "sha": "ee82e4faca96ca4073e8ed14ea1e4d23c49b16cc",
+      "size": 12538
+    },
+    {
+      "path": "hardware/model-dependencies.json",
+      "mode": "100644",
+      "sha": "1fd7a03883ac7755ff203816ec6fa7817d2d484d",
+      "size": 690
+    },
+    {
+      "path": "hardware/power.kicad_sch",
+      "mode": "100644",
+      "sha": "5278865f27d6406c19969f3a8f39df78b3d31fd6",
+      "size": 353230
+    },
+    {
+      "path": "hardware/sym-lib-table",
+      "mode": "100644",
+      "sha": "2a7a0edc1d03b6e6266d36fef8f8ab7bfe417e7c",
+      "size": 170
+    },
+    {
+      "path": "media/hero-bottom.png",
+      "mode": "100644",
+      "sha": "2f8ac13918412c003dd1b457067dc5cb57e750b6",
+      "size": 766850
+    },
+    {
+      "path": "media/hero-top.png",
+      "mode": "100644",
+      "sha": "ea49a37fa73c6f46c460eda7b9b3bb88ea7547c1",
+      "size": 755923
+    },
+    {
+      "path": "media/layout-top.svg",
+      "mode": "100644",
+      "sha": "ed29a3326416c6598c81b670cfa0d07fceaa3395",
+      "size": 544893
+    },
+    {
+      "path": "media/wiring/boundaries.svg",
+      "mode": "100644",
+      "sha": "df478bb177c192f4a0d8a2b251a5bbda956cf990",
+      "size": 2351
+    },
+    {
+      "path": "tools/README.md",
+      "mode": "100644",
+      "sha": "6bfb352fb8928b43cf8f9b5e041b1808680e3ab6",
+      "size": 593
+    },
+    {
+      "path": "tools/check_repository.py",
+      "mode": "100644",
+      "sha": "e0d600079fac3ac46078836cf7fdd0d03a8210e7",
+      "size": 1707
+    },
+    {
+      "path": "verification/README.md",
+      "mode": "100644",
+      "sha": "187cafd9eeafe1c2644fd5198a3728e978f8b67d",
+      "size": 325
+    },
+    {
+      "path": "verification/latest/drc-command.log",
+      "mode": "100644",
+      "sha": "97364b7de201cfb1adcbbf486202520791f457a9",
+      "size": 387
+    },
+    {
+      "path": "verification/latest/drc.json",
+      "mode": "100644",
+      "sha": "41a0c4c27989cb438ae64e80fa8b9a11ba863b2b",
+      "size": 2041
+    },
+    {
+      "path": "verification/latest/erc-command.log",
+      "mode": "100644",
+      "sha": "d9c29798f5b60cac65898e551f61c69895bcd54d",
+      "size": 330
+    },
+    {
+      "path": "verification/latest/erc.json",
+      "mode": "100644",
+      "sha": "592c7543cdef6a776f6846ef5e1a17f4e2fcaa14",
+      "size": 41943
+    },
+    {
+      "path": "verification/latest/netlist-command.log",
+      "mode": "100644",
+      "sha": "e8921b845f884097c639e2161088586baf1175b8",
+      "size": 194
+    },
+    {
+      "path": "verification/latest/netlist.xml",
+      "mode": "100644",
+      "sha": "87538c9ac6ac4f87e3f08fdd1e802b405370c4d3",
+      "size": 511198
+    },
+    {
+      "path": "verification/latest/publication-corrections.json",
+      "mode": "100644",
+      "sha": "7252be06a0ecac11d062cf29aed13c60e6236702",
+      "size": 220639
+    },
+    {
+      "path": "verification/latest/summary.json",
+      "mode": "100644",
+      "sha": "4bce3a4bdba5d93006f4ab53b0e3761e2f3a6fe0",
+      "size": 2896
+    }
+  ]
+}

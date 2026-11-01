@@ -1,0 +1,17 @@
+{
+  "edition_date": "2026-11-01",
+  "publication_date": "2026-11-02",
+  "timezone": "Asia/Kuala_Lumpur",
+  "repository": "desanv01/Flight-Controller-V2-Handover",
+  "authorization": "Explicit user authorization to publish the sanitized handover on 1 November 2026",
+  "reference_repository": "desanv01/Flight-Controller-V2",
+  "reference_commit": "56c91e283b9ce56b6e43480734feb60e2f078760",
+  "reference_blobs": 481,
+  "protected_local_reference_head": "17888a930a613dd784b7ef480b4950a670f26430",
+  "existing_repository_policy": "Read-only; no existing V2 files, refs, history or settings changed",
+  "latest_parameter_file": "FC2_stick_control_working_2026-10-21.param",
+  "latest_parameter_sha256": "0a2d585fbae65b96a086eed1f243a6e54256b0ca37b165a8d4b3d08ad1ad9ee3",
+  "raw_recordings_distributed": 0,
+  "private_original_engineering_packages_distributed": 0,
+  "hardware_acceptance": "No new test performed or hardware issue closed by publication"
+}

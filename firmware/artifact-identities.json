@@ -1,0 +1,54 @@
+[
+  {
+    "build": "original project EVT1",
+    "bytes": 1247475,
+    "sha256": "23003d8c1bb64ac21be54da0a38e12a1b2687273e8f5773e48ff179bebf2d759",
+    "board_id": 1241,
+    "description": "Firmware for a STM32H743xx board",
+    "decoded_bytes": 1400648,
+    "decoded_sha256": "6fb863c9490f6d8771ca4cdc60e4ef7fc75cf77c741fc14ecccb071cae355054",
+    "decoded_equals_bin": true,
+    "filename": "arducopter.apj",
+    "distribution": "excluded; identity record only, privately retained"
+  },
+  {
+    "build": "original project EVT1",
+    "bytes": 1400648,
+    "sha256": "6fb863c9490f6d8771ca4cdc60e4ef7fc75cf77c741fc14ecccb071cae355054",
+    "filename": "arducopter.bin",
+    "distribution": "excluded; identity record only, privately retained"
+  },
+  {
+    "build": "original project EVT1",
+    "bytes": 18828,
+    "sha256": "e20cc7e59ceb5503762b148c63981b79c15b8ef01f42494a9792c8854efcf8b8",
+    "filename": "SALFCGAMUDA_bl.bin",
+    "distribution": "excluded; identity record only, privately retained"
+  },
+  {
+    "build": "public neutral FCV2",
+    "path": "references/v2-design/firmware/binaries/arducopter.apj",
+    "bytes": 1247376,
+    "sha256": "cb32ec56d200029e046464a39302d651689243f6b6a69d49a4e90cfb4f9ff98d",
+    "board_id": 1241,
+    "description": "Firmware for a STM32H743xx board",
+    "decoded_bytes": 1400584,
+    "decoded_sha256": "c62187cb03442fe1764abc4a585ccedc7912fa0daff56034434b9b1fa0503673",
+    "decoded_equals_bin": true,
+    "distribution": "included, already-public neutral rebuild"
+  },
+  {
+    "build": "public neutral FCV2",
+    "path": "references/v2-design/firmware/binaries/arducopter.bin",
+    "bytes": 1400584,
+    "sha256": "c62187cb03442fe1764abc4a585ccedc7912fa0daff56034434b9b1fa0503673",
+    "distribution": "included, already-public neutral rebuild"
+  },
+  {
+    "build": "public neutral FCV2",
+    "path": "references/v2-design/firmware/binaries/FCV2_bl.bin",
+    "bytes": 18796,
+    "sha256": "5915b12bc9f6ca9a31f835ea87a026e5bf8ad24668ae438ff954d583dc2fb68d",
+    "distribution": "included, already-public neutral rebuild"
+  }
+]

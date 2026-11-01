@@ -1,0 +1,12 @@
+﻿file,parameters,duplicates,malformed_lines,bytes,sha256,role
+fc2 new updated working params 16.10.param,939,,,16418,6fbb6a644efacc8b82513775c1096f14f37e1e975608823f8cbaae87588f2996,historical; not the current procedure
+FC2_after_accel_calibration_2026-10-16.param,939,,,16535,20ba9ee6f2085cc52cf0ee2e0f1c483a7c29c85e7765c2364497d08377bdac56,historical; not the current procedure
+FC2_after_flip_before_changes_2026-10-21.param,945,,,16663,dccc09106ec46078477e46c25866e0751f123b073fe82afc352ea85899736cef,historical; not the current procedure
+FC2_after_receiver_calibration_2026-10-16.param,945,,,16640,7dae683ae21f05edc7162053ca8cb58e9117f6bfd4e43402cf1f13c0526559ac,historical; not the current procedure
+FC2_after_receiver_config_2026-10-16.param,945,,,16643,59e5330b2c03831a1217b57345ca3dea04f3e6020e7ebf39dcddd71bf03bfa2f,historical; not the current procedure
+FC2_before_ELRS_parameter_changes_2026-10-16.param,939,,,16535,2e925c66ee96683a1856b2122fd7aa626fd1d6bf161d3388eb15ee7ef580026c,historical; not the current procedure
+FC2_before_orientation_fix_2026-10-21.param,945,,,16641,73810df1f9ee28d79de7267661020acfac2ace18c86769017f3f6e31e51ebd27,historical; not the current procedure
+FC2_before_receiver_setup_2026-10-16.param,939,,,16537,234652e5dc0b43a31c44cc87f56f80db73c1d223d744f8fd459ce4ea0794865b,historical; not the current procedure
+FC2_radio_corrected_2026-10-21.param,945,,,16653,24f0716a41754b6d8332ac411de97ce80467c7ec440e62200c717d0e0a7d8846,historical; not the current procedure
+FC2_receiver_rechecked_2026-10-19.param,945,,,16641,3e8d0aed3e77103453dc8cc39613426b55e7f153266bfc27501933aae1286ad1,historical; not the current procedure
+FC2_stick_control_working_2026-10-21.param,945,,,16658,0a2d585fbae65b96a086eed1f243a6e54256b0ca37b165a8d4b3d08ad1ad9ee3,latest identified working BENCH snapshot; not live state

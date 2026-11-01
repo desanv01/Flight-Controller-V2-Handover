@@ -1,0 +1,23 @@
+* text=auto
+*.kicad_pcb text eol=lf
+*.kicad_sch text eol=lf
+*.md text eol=lf
+*.png binary
+*.pdf binary
+*.zip binary
+*.bin binary
+*.apj binary
+
+# CAD data and generated engineering exports are not software language metrics.
+*.kicad_pcb linguist-detectable=false
+*.kicad_sch linguist-detectable=false
+*.kicad_pro linguist-detectable=false
+*.kicad_sym linguist-detectable=false
+*.kicad_mod linguist-detectable=false
+*.kicad_dru linguist-detectable=false
+*.step linguist-generated=true
+*.stp linguist-generated=true
+verification/** linguist-generated=true
+media/** linguist-generated=true
+fabrication/** linguist-generated=true
+archive/** linguist-vendored=true

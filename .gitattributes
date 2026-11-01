@@ -1,0 +1,2 @@
+# Preserve exact distributed bytes, including inherited reference line endings.
+* -text
