@@ -9,6 +9,7 @@ The working test article was called **FC2**. Its recorded firmware banner identi
 | Feature | Identify on the received FC |
 |---|---|
 | MCU | STM32H743VIT6 or approved supply-form equivalent; photograph actual markings |
+| Clock | 8 MHz active oscillator; target uses HSE bypass, not an assumed crystal configuration |
 | Primary IMU | ICM-42688-P, SPI6 |
 | Secondary IMU | BMI270, SPI3 |
 | Barometer | BMP388, I2C2 |

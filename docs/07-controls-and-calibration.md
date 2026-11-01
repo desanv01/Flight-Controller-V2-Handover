@@ -25,7 +25,7 @@ Remove props and disconnect ESC power. In **SETUP → Radio Calibration**, do no
 
 1. Lower the actual throttle stick and confirm CH3 is close to the saved low endpoint.
 2. Move only right-stick left/right: only the intended roll input should follow, low to high.
-3. Move only right-stick forward/back: verify pitch input and direction against Mission Planner's radio calibration instructions.
+3. Move only right-stick forward/back: on Mission Planner's Radio Calibration page, the pitch bar should move opposite to the physical stick's forward/back movement. The intended numeric direction is low near 1000 when pushed forward and high near 2000 when pulled back. Verify one axis at a time using the [official radio instructions](https://ardupilot.org/copter/docs/common-radio-control-calibration.html).
 4. Move only left-stick down/up: verify CH3 smoothly traverses low to high.
 5. Move only left-stick left/right: verify CH4 traverses low to high.
 6. Return to centred roll/pitch/yaw and fully low throttle. Record a combined view of sticks and live bars.
@@ -58,13 +58,15 @@ Earlier files with throttle trims 1448, 1826 or 1618 are historical. Their trim 
 
 Proceed only after safe intake, correct orientation, low throttle and no fresh blocking warnings. ESC propulsion must remain **electrically disconnected**.
 
-1. Read back `RC6_OPTION=0`, `ARMING_RUDDER=2`, `ARMING_SKIPCHK=0`, and verify CH1–CH4 mapping.
+1. Read back `RC6_OPTION=0`, `ARMING_RUDDER=2`, `ARMING_SKIPCHK=0`, and verify CH1–CH4 mapping. The final file also has `RC1_OPTION` through `RC4_OPTION` all zero; do not add auxiliary arm/relay functions to the flight axes.
 2. Confirm Stabilize and DISARMED on the HUD. The shoulder button should not arm the FC.
 3. Keep right stick centred; hold left stick down-right until ARMED.
 4. Return yaw to centre with throttle still down. Confirm it does not immediately disarm from shoulder-button release.
 5. Hold down-left until DISARMED. Record the transition.
 6. If an arm request is rejected, lower controls and inspect the **newest timestamped** message. Do not bypass it.
 
-The saved `DISARM_DELAY=10` may cause automatic disarming under qualifying landed/idle conditions. Do not disable it just to keep ARMED visible. For a throttle-command check with motors isolated, inspect CH3 input and output command telemetry after a normal arm request, then return throttle low and disarm. These values are not RPM measurements.
+The saved `DISARM_DELAY=10` may cause automatic disarming under qualifying landed/idle conditions. Do not disable it just to keep ARMED visible.
+
+For the command check, keep ESC propulsion electrically disconnected. Open **DATA → Status** and locate `ch3in` plus `ch1out`, `ch2out`, `ch3out` and `ch4out`. Arm normally, centre yaw while keeping throttle low, and raise throttle only slightly. `ch3in` should follow the stick; once outside the low-throttle dead zone, output commands should respond. The saved `RC3_DZ=30` means a tiny input change can still be interpreted as zero demand. Do not increase to full throttle to investigate it. Lower throttle, disarm and deliberately restart the FC before a later separately gated powered test. None of these software values measures RPM.
 
 Physical motor tests require the additional [propulsion gates](08-esc-and-motors.md). References: [radio calibration](https://ardupilot.org/copter/docs/common-radio-control-calibration.html), [arming](https://ardupilot.org/copter/docs/arming_the_motors.html), [Stabilize](https://ardupilot.org/copter/docs/stabilize-mode.html).

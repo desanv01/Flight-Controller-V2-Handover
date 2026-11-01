@@ -33,6 +33,8 @@ Changes are grouped as configuration, device-specific calibration, sensor startu
 
 ## Safe use
 
+For a fresh incoming export, `tools/compare_parameters.py` compares numbers offline without applying settings. The [worked beginner command](../handover/BEGINNER-WALKTHROUGH.md) saves its CSV outside this repository. This tool does not decide that a difference is safe or that a matching file proves healthy hardware.
+
 1. Save a new complete live export from the correctly identified FC before any write.
 2. Compare it with the relevant historical snapshot; explain all intentional differences.
 3. Review individual required settings rather than loading the full dump by default.

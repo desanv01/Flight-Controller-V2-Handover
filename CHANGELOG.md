@@ -1,5 +1,9 @@
 # Handover changes
 
+## 2 November 2026 — final coverage and beginner review
+
+Audited the consolidated guides against the FC records, parameter history and available final-test analyses. Corrected public/private inventory wording; added a beginner walkthrough, explicit private-transfer checklist and coverage report. Clarified the absent hardware safety switch, clock, common TIM1 output group, pitch direction and propulsion-isolated throttle/status check. Added an offline numeric comparison helper with focused tests. No historical parameter export, pinned V2 source file or hardware state changed.
+
 ## 2 November 2026 — initial public handover
 
 Published a separate sanitized takeover edition prepared on 1 November, with fourteen technical guides, eleven immutable parameter exports, complete numerical comparisons, equipment/responsibility records, issue register, blank acceptance/custody forms and gated continuation procedures.

@@ -54,6 +54,8 @@ This is a **five-wire signal-only interface**. No battery, 5 V or current-sense 
 
 J11 cannot power the Pi. UART signals are nominal 3.3 V logic, not RS232 levels. The source mapping is verified from the copied netlist and target; hardware wiring and successful runtime data exchange still need tests. Leave unneeded VTX, DJI and CAN connectors unused rather than treating them as spare safe power outputs.
 
+This custom target has **no dedicated hardware safety switch** (`HAL_HAVE_SAFETY_SWITCH=0` in the [target definition](../references/v2-design/firmware/targets/FCV2/hwdef.dat)). A generic Pixhawk instruction to hold its safety button does not identify a missing step on this FC. Keep pre-arm checks and electrical isolation; do not replace them with a guessed safety-switch parameter change.
+
 ## BEC and battery
 
 The Matek BEC12S-PRO accepts **9–55 V DC**, selects **5.2 V default / 8 V / 12 V**, supports up to **5 A continuous**, **9 A peak**, and has **no reverse-input protection**. The 6S pack is within its input range, but this says nothing about the downstream ESC rating. Manufacturer reference: [Matek BEC12S-PRO](https://www.mateksys.com/?portfolio=bec12s-pro).

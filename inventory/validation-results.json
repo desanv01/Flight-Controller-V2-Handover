@@ -1,8 +1,8 @@
 {
   "edition_date": "2026-11-01",
-  "payload_files": 540,
-  "manifest_files": 537,
-  "manifest_bytes": 137861267,
+  "payload_files": 544,
+  "manifest_files": 541,
+  "manifest_bytes": 137892416,
   "manifest_exclusions": [
     "inventory/VALIDATION.md",
     "inventory/package-sha256.csv",
@@ -13,7 +13,7 @@
     "latest_entries": 945,
     "history_rows": 10371,
     "difference_rows": 460,
-    "critical_bench_values_checked": 41,
+    "critical_bench_values_checked": 49,
     "nonzero_coordinates": 0
   },
   "public_reference": {
@@ -29,13 +29,13 @@
     "private_original_binaries_included": false
   },
   "links": {
-    "authored_documents": 34,
-    "local_targets": 107,
+    "authored_documents": 36,
+    "local_targets": 164,
     "scope": "Target existence only; external URLs/anchors and preserved historical source links excluded"
   },
   "privacy": {
-    "files_scanned": 537,
-    "bytes_scanned_including_zip_contents": 142983805,
+    "files_scanned": 541,
+    "bytes_scanned_including_zip_contents": 143014954,
     "zip_members_scanned": 32,
     "scope": "Common path/key patterns and excluded file classes; not exhaustive secret detection",
     "intentional_public_default": "The ExpressLRS default AP password is public vendor information, not a private credential"

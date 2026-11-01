@@ -2,6 +2,8 @@
 
 Mission Planner is the ground station on the laptop. ArduCopter is the firmware on FC2. The recorded versions were Mission Planner **1.3.83** and ArduCopter **4.7.1**, custom SALFCGAMUDA target. A different COM port or ground-station version on the incoming workstation is possible; record it rather than forcing an old port assignment.
 
+For installation, Windows Device Manager, screenshots and a worked parameter-comparison command, use the [beginner walkthrough](../handover/BEGINNER-WALKTHROUGH.md). Installing the laptop application does not require rewriting the FC firmware.
+
 ## Connect without propulsion
 
 1. Complete [intake](../START-HERE.md). Remove every propeller and physically isolate ESC power. Leave the Pi branch off.

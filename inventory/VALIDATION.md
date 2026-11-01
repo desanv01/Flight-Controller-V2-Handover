@@ -2,7 +2,7 @@
 
 **Result: PASS** · edition prepared 1 November 2026.
 
-- 537 payload files hashed, 137,861,267 bytes; generated outputs below excluded.
+- 541 payload files hashed, 137,892,416 bytes; generated outputs below excluded.
 - Eleven parameter exports parsed; complete history/diff and final 945-entry bench snapshot checked.
 - All 481 public V2 blobs compared with the pinned commit; only documented CRLF/LF equivalence permitted.
 - Included neutral firmware hashes checked; APJ decoded payload compared with accompanying BIN.

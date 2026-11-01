@@ -10,6 +10,7 @@ The ESC team reported target **OPENESC_30_F421** and **DShot300** support. The F
 - DShot does not need conventional high-throttle/low-throttle endpoint calibration. Leave `ESC_CALIBRATION=0` for this arrangement.
 - `SERVO_DSHOT_ESC=1` selects command behaviour, not proof that AM32/BLHeli32 or a specific firmware is installed.
 - `SERVO_BLH_AUTO=1` is present in the latest file. It is not permission to run passthrough flashing. Bidirectional DShot remains disabled (`SERVO_BLH_BDMASK=0`).
+- Outputs 1–4 share **TIM1** in the custom target. Review protocol/timer/DMA changes as an output-group change with the ESC team, not as four unrelated adjustments. `RC_SPEED=490` is not the DShot bit rate or ELRS packet rate. The saved `SERVO_BLH_POLES=14` is an unverified motor-pole assumption, not a measured motor identity.
 
 ## Electrical output versus logical motor
 

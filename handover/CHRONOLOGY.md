@@ -20,6 +20,7 @@ Dates below describe technical records and reported sessions, not employment dat
 | 21 October final control arrangement | RC6 confirmed momentary; disabled, stick arming/disarming retained; user reported working | Final identified snapshot is stick_control_working, not the earlier shoulder-button profile |
 | Latest Pi discussion | Bare Pi USB-C boot confirmed; battery/BEC red/no-boot issue unresolved | No measured loaded BEC diagnosis or full peripheral acceptance provided |
 | 1 November handover preparation | Outgoing contributor confirmed the left-behind project remains at bench development; local compilation authorized | No new hardware test, repository creation, publishing or V2 source mutation |
+| 2 November public handover and final review | Separate sanitized repository published, then audited against the saved FC records and final-test summaries; beginner and private-transfer instructions clarified | Documentation work only; raw evidence retained privately, original V2 unchanged, no hardware issue accepted by publication |
 
 ## Superseded instructions that must not reappear as current steps
 

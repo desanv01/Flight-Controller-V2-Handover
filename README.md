@@ -6,6 +6,8 @@ This handover helps the incoming GAMUDA engineering team continue the FC2 drone 
 
 ## Start here
 
+New to GitHub or Mission Planner? Follow the [beginner walkthrough](handover/BEGINNER-WALKTHROUGH.md) for the complete download-to-first-backup route.
+
 1. [First-day walkthrough](START-HERE.md) — receive, identify and connect without propulsion.
 2. [Current status](CURRENT-STATUS.md) — what worked, what remains open and the last saved settings.
 3. [Safety and stopping conditions](SAFETY.md).
@@ -51,6 +53,7 @@ The diagram shows signal roles, not physical pin orientation or power wiring. Us
 | Latest identified bench snapshot, 945 parameters | [21 October export](config/historical-fc2-snapshots/FC2_stick_control_working_2026-10-21.param) |
 | Equipment and missing identifiers | [Equipment](handover/EQUIPMENT.md) |
 | Incoming responsibilities | [Ownership](handover/OWNERSHIP.md) |
+| Final coverage audit and newcomer route | [Final review](handover/FINAL-REVIEW.md) |
 | Timeline and superseded steps | [Chronology](handover/CHRONOLOGY.md) |
 | Blank test and transfer forms | [Acceptance](handover/ACCEPTANCE.md), [custody](handover/CUSTODY.md) |
 | Sanitized recording catalog and evidence limits | [Evidence](evidence/README.md) |

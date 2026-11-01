@@ -97,6 +97,8 @@ def check_parameters() -> dict:
         'RC_PROTOCOLS': 512, 'RC_OPTIONS': 8224, 'RSSI_TYPE': 3,
         'RCMAP_ROLL': 1, 'RCMAP_PITCH': 2, 'RCMAP_THROTTLE': 3, 'RCMAP_YAW': 4,
         'RC6_OPTION': 0, 'ARMING_RUDDER': 2, 'ARMING_SKIPCHK': 0,
+        'RC1_OPTION': 0, 'RC2_OPTION': 0, 'RC3_OPTION': 0, 'RC4_OPTION': 0,
+        'RC3_DZ': 30, 'DISARM_DELAY': 10, 'RC_SPEED': 490, 'SERVO_BLH_POLES': 14,
         'MOT_PWM_TYPE': 5, 'ESC_CALIBRATION': 0,
         'SERVO1_FUNCTION': 34, 'SERVO2_FUNCTION': 35, 'SERVO3_FUNCTION': 36, 'SERVO4_FUNCTION': 33,
         'SERVO_DSHOT_ESC': 1, 'SERVO_BLH_AUTO': 1, 'SERVO_BLH_BDMASK': 0,
@@ -274,8 +276,8 @@ def write_outputs(rows: list[dict], result: dict) -> None:
         writer = csv.DictWriter(handle, fieldnames=['path', 'bytes', 'sha256'], lineterminator='\n')
         writer.writeheader()
         writer.writerows(rows)
-    (ROOT / 'inventory/validation-results.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
-    (ROOT / 'inventory/VALIDATION.md').write_text(render_report(result), encoding='utf-8')
+    (ROOT / 'inventory/validation-results.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8', newline='\n')
+    (ROOT / 'inventory/VALIDATION.md').write_text(render_report(result), encoding='utf-8', newline='\n')
 
 
 def render_report(result: dict) -> str:

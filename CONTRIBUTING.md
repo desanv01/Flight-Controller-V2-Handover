@@ -20,6 +20,7 @@ Run this read-only command first:
 
 ```sh
 python tools/verify_handover.py
+python -m unittest discover -s tools -p "test_*.py"
 ```
 
 After reviewing intentional file changes and the publication scope, regenerate the integrity manifest/report and verify again:

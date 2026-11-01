@@ -1,6 +1,6 @@
 # Equipment and software transfer inventory
 
-The following is the recorded equipment baseline, not a physical count performed during compilation. The receiver should fill asset IDs, quantity, condition, storage location and custodian during intake. Do not treat a proposed part in an old sourcing list as purchased hardware.
+The following is the recorded equipment baseline, not a physical count performed during compilation. The receiving team should fill asset IDs, quantity, condition, storage location and custodian during intake. Do not treat a proposed part in an old sourcing list as purchased hardware.
 
 | Item | Recorded identity | Quantity or condition to confirm |
 |---|---|---|
@@ -31,12 +31,12 @@ An appropriately rated multimeter and insulated leads, safe low-voltage breakout
 
 ## Software and data transfer
 
-| Material | Preserved here | Incoming action |
+| Material | Public repository or separate custody | Incoming action |
 |---|---|---|
-| FC source/manufacturing records | Pinned public V2 and separate original/vendor references | Identify match to received board |
-| Original/public firmware | Binaries, source board definitions, manifests and logs | Preserve as distinct builds; no automatic flash |
+| FC source/manufacturing records | Pinned public V2 is included; original private/vendor packages are held separately | Identify match to received board; request originals if needed |
+| Original/public firmware | Neutral FCV2 binaries/source inputs/manifests are included; original SALFCGAMUDA files are private, with identities/hashes published | Obtain original matching files privately if recovery requires them; no automatic flash |
 | FC2 parameters | Eleven exports plus complete comparisons | Fresh live read-back before changes |
-| Ground-station evidence | Screen recordings/screenshots/reviews | Install official Mission Planner and record actual version |
+| Ground-station evidence | Sanitized catalog and summaries are public; recordings/screenshots/reviews remain private | Install official Mission Planner; arrange private evidence transfer |
 | MCU programming tool | Instructions and source references | Obtain official STM32CubeProgrammer/drivers; installer not bundled |
 | Transmitter/RX exports | Receiver banner/settings recorded; no complete final handset export established | Capture current config privately without reset |
 | Pi OS/storage image | Not supplied as an accepted image | Identify and make an authorized private backup; preserve credentials separately |
@@ -46,4 +46,4 @@ An appropriately rated multimeter and insulated leads, safe low-voltage breakout
 
 ## Intake record
 
-For each received item enter: asset ID, physical model/revision, serial if appropriate, quantity, condition, accessories, last known configuration, photograph filename, custodian and location. Keep private serial/account identifiers out of the future public package unless there is a reason and approval.
+For each received item enter: asset ID, physical model/revision, serial if appropriate, quantity, condition, accessories, last known configuration, photograph filename, custodian and location. Keep private serial/account identifiers out of future public additions unless there is a reason and approval. Use the [custody checklist](CUSTODY.md) to distinguish public downloads from private files still to be received.

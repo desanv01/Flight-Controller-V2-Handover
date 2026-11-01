@@ -14,3 +14,5 @@ jobs:
           python-version: '3.12'
       - name: Verify public payload and engineering records
         run: python tools/verify_handover.py
+      - name: Check offline parameter comparison
+        run: python -m unittest discover -s tools -p "test_*.py"
